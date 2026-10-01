@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 580 210" width="580" height="210" role="img">
+<style>
+text{font-family:'Hanken Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
+.tw{animation:tw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.5)}50%{opacity:1;transform:scale(1.15)}}
+.fl{animation:fl 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes fl{0%{transform:translateY(0) scale(.6);opacity:0}10%{opacity:.85}90%{opacity:.7}100%{transform:translateY(-270px) scale(1.1);opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-14px) rotate(2deg)}}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.drift{animation:drift 40s linear infinite}
+@keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(780px)}}
+.pulse{animation:pulse 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.12);opacity:.9}}
+.card{animation:cardfloat 6s ease-in-out infinite}@keyframes cardfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-6px)}}
+</style>
+<defs><linearGradient id="bd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#C9B6FF"/><stop offset="1" stop-color="#3B6FE0"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1d55"/><stop offset="1" stop-color="#241c78"/></linearGradient>
+<radialGradient id="o" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#C9B6FF" stop-opacity=".55"/><stop offset="1" stop-color="#C9B6FF" stop-opacity="0"/></radialGradient></defs>
+<g class="card" style="animation-delay:-3s">
+<rect x="6" y="6" width="568" height="198" rx="26" fill="url(#bg)" stroke="url(#bd)" stroke-width="3.5"/>
+<circle class="pulse" cx="480" cy="78" r="86" fill="url(#o)"/>
+<g transform="translate(480 78)"><path class="spin" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" transform="scale(42)" fill="#C9B6FF" opacity=".9"/><path class="spin" style="animation-direction:reverse;animation-duration:9s" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" transform="scale(26) rotate(45)" fill="#fff" opacity=".85"/></g>
+<g transform="translate(530 176)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#3B6FE0" transform="scale(8)" style="animation-delay:-0.5s;animation-duration:3s"/></g><g transform="translate(430 150)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#fff" transform="scale(6)" style="animation-delay:-1.4s;animation-duration:3s"/></g>
+<rect x="34" y="30" width="84" height="30" rx="15" fill="#C9B6FF" opacity=".95"/>
+<text x="76" y="51" font-size="15" font-weight="800" fill="#081334" text-anchor="middle" letter-spacing="1.5">THESIS</text>
+<text x="34" y="108" font-size="38" font-weight="900" fill="#fff">DIVG</text>
+<text x="34" y="140" font-size="18" font-weight="500" fill="#e9e4ff">Digital Identity + Verification Graph for impact</text>
+<text x="34" y="165" font-size="18" font-weight="500" fill="#e9e4ff">finance, on SUI and Hedera. My MSc thesis.</text>
+<text x="34" y="190" font-size="15" font-weight="800" fill="#C9B6FF" letter-spacing="1">OPEN REPO  ↗</text>
+</g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 250 74" width="250" height="74" role="img">
+<style>
+text{font-family:'Hanken Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
+.tw{animation:tw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.5)}50%{opacity:1;transform:scale(1.15)}}
+.fl{animation:fl 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes fl{0%{transform:translateY(0) scale(.6);opacity:0}10%{opacity:.85}90%{opacity:.7}100%{transform:translateY(-134px) scale(1.1);opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-14px) rotate(2deg)}}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.drift{animation:drift 40s linear infinite}
+@keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(450px)}}
+.pulse{animation:pulse 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.12);opacity:.9}}
+.btn{animation:bt 3.6s ease-in-out infinite;transform-box:fill-box;transform-origin:center}@keyframes bt{0%,100%{transform:scale(1)}50%{transform:scale(1.045)}}
+</style>
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FF7BA9"/><stop offset="1" stop-color="#a78bfa"/></linearGradient></defs>
+<g class="btn" style="animation-delay:-2.7s">
+<rect x="4" y="6" width="242" height="62" rx="31" fill="url(#g)"/>
+<path d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" transform="translate(40 37.0) scale(13)" fill="#fff" class="spin"/>
+<text x="143.0" y="45.0" font-size="23" font-weight="900" fill="#fff" text-anchor="middle" letter-spacing="1">MEDIUM</text></g>
+</svg>

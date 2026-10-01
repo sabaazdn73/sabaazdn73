@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 44" width="1200" height="44" role="img">
+<style>
+text{font-family:'Hanken Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-serif}
+.tw{animation:tw 3s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes tw{0%,100%{opacity:.15;transform:scale(.5)}50%{opacity:1;transform:scale(1.15)}}
+.fl{animation:fl 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes fl{0%{transform:translateY(0) scale(.6);opacity:0}10%{opacity:.85}90%{opacity:.7}100%{transform:translateY(-104px) scale(1.1);opacity:0}}
+.bob{animation:bob 4s ease-in-out infinite;transform-box:fill-box;transform-origin:50% 100%}
+@keyframes bob{0%,100%{transform:translateY(0) rotate(-2deg)}50%{transform:translateY(-14px) rotate(2deg)}}
+.spin{animation:spin 14s linear infinite;transform-box:fill-box;transform-origin:center}
+@keyframes spin{to{transform:rotate(360deg)}}
+.drift{animation:drift 40s linear infinite}
+@keyframes drift{from{transform:translateX(-200px)}to{transform:translateX(1400px)}}
+.pulse{animation:pulse 3.2s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+@keyframes pulse{0%,100%{transform:scale(1);opacity:.55}50%{transform:scale(1.12);opacity:.9}}
+
+</style>
+<defs></defs>
+<path d="M0,22 Q25,34 50,22 Q75,34 100,22 Q125,10 150,22 Q175,10 200,22 Q225,34 250,22 Q275,34 300,22 Q325,10 350,22 Q375,10 400,22 Q425,34 450,22 Q475,34 500,22 Q525,10 550,22 Q575,10 600,22 Q625,34 650,22 Q675,34 700,22 Q725,10 750,22 Q775,10 800,22 Q825,34 850,22 Q875,34 900,22 Q925,10 950,22 Q975,10 1000,22 Q1025,34 1050,22 Q1075,34 1100,22 Q1125,10 1150,22 Q1175,10 1200,22" fill="none" stroke="url(#g)" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 9"><animate attributeName="stroke-dashoffset" from="0" to="-110" dur="4s" repeatCount="indefinite"/></path>
+<g transform="translate(200 22)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#F7C85C" transform="scale(6)" style="animation-delay:-0.0s;animation-duration:3s"/></g>
+<g transform="translate(420 22)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#FFB3D1" transform="scale(6)" style="animation-delay:-0.7s;animation-duration:3s"/></g>
+<g transform="translate(600 22)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#fff" transform="scale(9)" style="animation-delay:-1.4s;animation-duration:3s"/></g>
+<g transform="translate(780 22)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#C9B6FF" transform="scale(6)" style="animation-delay:-2.1s;animation-duration:3s"/></g>
+<g transform="translate(1000 22)"><path class="tw" d="M0,-1 C0.12,-0.3 0.3,-0.12 1,0 C0.3,0.12 0.12,0.3 0,1 C-0.12,0.3 -0.3,0.12 -1,0 C-0.3,-0.12 -0.12,-0.3 0,-1Z" fill="#F7C85C" transform="scale(6)" style="animation-delay:-2.8s;animation-duration:3s"/></g>
+<g transform="translate(600 22)"><path d="M0,0.9 C-1.5,-0.1 -0.9,-1.1 0,-0.4 C0.9,-1.1 1.5,-0.1 0,0.9Z" transform="scale(11)" fill="#FF7BA9" class="pulse"/></g>
+</svg>
