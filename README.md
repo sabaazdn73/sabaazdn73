@@ -2,10 +2,11 @@
 
 <img src="assets/hero.svg" alt="Saba Azadegan, founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#-about) · [Where Tnega was born](#-where-tnega-was-born) · [Projects](#-projects) · [Stack](#-tech-stack--chains) · [Say hi](#-say-hi) ✦
+✦ [About](#about) · [Where Tnega was born](#born) · [Building now](#building) · [Projects](#projects) · [Tech stack](#stack) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="about"></a>
 <img src="assets/h-about.svg" alt="About" width="100%"/>
 
 </div>
@@ -18,6 +19,7 @@ I started as a **structural engineer**, moved to Lisbon, and finished an **MSc i
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="born"></a>
 <img src="assets/h-born.svg" alt="Where Tnega was born" width="100%"/>
 
 <img src="assets/born.svg" alt="Tnega was born in the UZH Deep Dive Into Blockchain summer school in Zurich, grew out of the F2F project, and became Tnega" width="100%"/>
@@ -30,6 +32,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="building"></a>
 <img src="assets/h-building.svg" alt="Building now" width="100%"/>
 
 </div>
@@ -40,6 +43,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="projects"></a>
 <img src="assets/h-projects.svg" alt="Projects" width="100%"/>
 
 <table>
@@ -58,12 +62,14 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="stack"></a>
 <img src="assets/h-stack.svg" alt="Tech stack and chains" width="100%"/>
 
 <img src="assets/stack.svg" alt="Solidity, Move, Rust, Anchor, TypeScript, Python, React, MCP, LiteSVM, Hedera, SUI, IOTA, Solana, BNB, Arbitrum" width="100%"/>
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="learning"></a>
 <img src="assets/h-learning.svg" alt="Learning" width="100%"/>
 
 </div>
@@ -76,6 +82,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="contact"></a>
 <img src="assets/h-contact.svg" alt="Say hi" width="100%"/>
 
 <a href="https://www.tnega.app"><img src="assets/btn-site.svg" alt="tnega.app" height="58"/></a>
