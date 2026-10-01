@@ -11,18 +11,11 @@
 
 </div>
 
-<table>
-<tr>
-<td width="300" align="center"><img src="assets/saba.svg" alt="Caricature of Saba" width="280"/></td>
-<td valign="middle">
+<p align="center"><img src="assets/saba.svg" alt="Saba" width="150"/></p>
 
 I build tools that make on-chain things **measurable and verifiable**: what a tokenized stock really costs to buy, whether an AI agent does what it says, whether a credential or a receipt can be trusted.
 
 I started as a **structural engineer**, moved to Lisbon, and finished an **MSc in Business at Católica Lisbon**. Today I'm the solo founder of **[Tnega](https://www.tnega.app)**, and Fendi, the cat in the banner, is its mascot.
-
-</td>
-</tr>
-</table>
 
 <div align="center">
 
