@@ -1,6 +1,6 @@
 # Saba Azadegan
 
-Lisbon, Portugal · Open to relocation · +351 911 561 208 · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
+Lisbon, Portugal · Open to relocation · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 [linkedin.com/in/saba-azadegan-2974b622a](https://linkedin.com/in/saba-azadegan-2974b622a) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan) · [x.com/SabaAzadegan](https://x.com/SabaAzadegan)
 
@@ -38,7 +38,7 @@ I'm an engineer who moved into business and finance, and then into blockchain. I
 ### Solana Fall School
 *Online · Oct 2026 (in progress)*
 
-- Learning to build programs on Solana with Anchor, coming from an Ethereum background.
+- Learning to build programs on Solana with Anchor.
 
 ### MSc in Business
 *Católica Lisbon School of Business and Economics, Portugal · 2023 to Sep 2026*

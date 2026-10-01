@@ -39,7 +39,7 @@ page = f"""<!doctype html>
     body {{ font-size: 10pt; line-height: 1.38; max-width: none; padding: 0; }}
     h2 {{ margin: 14px 0 6px; }}
     h3 {{ break-after: avoid; }}
-    a {{ color: var(--ink); }}
+    a {{ color: var(--link); }}
   }}
 </style>
 </head>
