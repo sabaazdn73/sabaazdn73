@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Saba Azadegan, founder of Tnega, with Fendi the cat" width="100%"/>
+<img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Where Tnega was born](#born) · [Building now](#building) · [Projects](#projects) · [Tech stack](#stack) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [Engineering × AI](#engineering) · [Building now](#building) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -13,9 +13,48 @@
 
 <p align="center"><img src="assets/saba.svg" alt="Saba" width="150"/></p>
 
-I build tools that make on-chain things **measurable and verifiable**: what a tokenized stock really costs to buy, whether an AI agent does what it says, whether a credential or a receipt can be trusted.
+I'm a **structural engineer** (MSc, Kharazmi University) who now works where engineering meets AI. I design expert-level structural engineering tasks that show where AI models go wrong when they apply **ACI 318-19** and **ASCE 7-16**, and I check every expected answer by hand against the code.
 
-I started as a **structural engineer**, moved to Lisbon, and finished an **MSc in Business at Católica Lisbon**. Today I'm the solo founder of **[Tnega](https://www.tnega.app)**, and Fendi, the cat in the banner, is its mascot.
+Before that I worked on a cast-in-place reinforced concrete project, doing the full **quantity takeoff and cost estimate** and supervising foundation and rebar work on site. I also hold an **MSc in Business from Católica Lisbon**.
+
+Everything I build follows one idea: **results you can verify**. Today that's **[Tnega](https://www.tnega.app)**, an AI reviewer for structural drawings that I'm building, and Fendi, the cat in the banner, is its mascot.
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+<a id="engineering"></a>
+<img src="assets/h-engineering.svg" alt="Engineering × AI" width="100%"/>
+
+<table>
+<tr>
+<td><a href="https://www.linkedin.com/in/saba-azadegan-2974b622a"><img src="assets/card-aieval.svg" alt="AI evaluation: expert structural tasks that show where AI misapplies ACI 318-19 and ASCE 7-16" width="100%"/></a></td>
+<td><a href="https://www.tnega.app/town/"><img src="assets/card-codetown.svg" alt="RC Code Town: six concrete structures in 3D, the governing provisions and where AI tends to go wrong" width="100%"/></a></td>
+</tr>
+<tr>
+<td><a href="cv/"><img src="assets/card-site.svg" alt="On site and in design: rebar takeoff and site supervision on a concrete mixed-use project; ETABS and SAFE" width="100%"/></a></td>
+<td><img src="assets/card-fddi.svg" alt="FDDI: structural damage detection applied to company finances, accepted at IFABS 2026" width="100%"/></td>
+</tr>
+</table>
+
+<a href="https://www.tnega.app/town/"><img src="assets/codetown.svg" alt="RC Code Town on tnega.app: six concrete structures at true scale, the checks that matter and where AI goes wrong" width="100%"/></a>
+
+</div>
+
+General AI models read drawings well. Where they go wrong is **applying the code**: an outdated code edition, a multi-part clause checked for only its first condition, a site input assumed instead of asked for. The **[RC Code Town](https://www.tnega.app/town/)** maps those failure points member by member, from footings and columns to transfer girders and tied-back shoring, using general engineering content from the public codes.
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+<a id="building"></a>
+<img src="assets/h-building.svg" alt="Building now" width="100%"/>
+
+</div>
+
+**[Tnega](https://www.tnega.app)** is an AI reviewer for structural drawings, **in development**. It will read the drawing set, run the checks for each member, do the calculations in deterministic code rather than in the model, repeat every check independently, and send every life-safety finding to an engineer first. The engineer of record signs, not the agent.
+
+The earlier product, **[Tnega Finance](https://www.tnega.app/finance)**, still runs: it shows what every tokenized stock and ETF costs to buy on every chain, and orders are **signed in your own wallet**, so Tnega never holds keys or funds.
 
 <div align="center">
 
@@ -28,18 +67,7 @@ I started as a **structural engineer**, moved to Lisbon, and finished an **MSc i
 
 </div>
 
-Tnega did not start from nothing. It began at the **University of Zurich's Deep Dive Into Blockchain** summer school, as **F2F Cross-Border & OnChain Oversight**, and Tnega is the next chapter of that same project.
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-<a id="building"></a>
-<img src="assets/h-building.svg" alt="Building now" width="100%"/>
-
-</div>
-
-**[Tnega](https://www.tnega.app)** shows what every tokenized stock and ETF costs to buy on every chain. Orders are prepared for you and **signed in your own wallet**: Tnega never holds keys or funds. AI assistants can use it through MCP tools, and an open measurement layer covers on-chain agents.
+Tnega did not start from nothing. It began at the **University of Zurich's Deep Dive Into Blockchain** summer school, as **F2F Cross-Border & OnChain Oversight**, became Tnega Finance, and is now turning to the work I know best: structural engineering.
 
 <div align="center">
 
@@ -50,7 +78,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 <table>
 <tr>
-<td><a href="https://github.com/sabaazdn73/Agents-Marketplace"><img src="assets/card-tnega.svg" alt="Tnega" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/tnega"><img src="assets/card-tnega.svg" alt="Tnega: an AI reviewer for structural drawings, in development, plus Tnega Finance" width="100%"/></a></td>
 <td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-f2f.svg" alt="F2F Cross-Border" width="100%"/></a></td>
 </tr>
 <tr>
@@ -63,6 +91,11 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 </table>
 
 <img src="assets/divider.svg" alt="" width="100%"/>
+
+<a id="toolkit"></a>
+<img src="assets/h-toolkit.svg" alt="Engineering toolkit" width="100%"/>
+
+<img src="assets/stack-eng.svg" alt="ACI 318-19, ASCE 7-16, IBC, ETABS, SAFE, Abaqus, AutoCAD, Python, Excel, quantity takeoff, structural dynamics" width="100%"/>
 
 <a id="stack"></a>
 <img src="assets/h-stack.svg" alt="Tech stack and chains" width="100%"/>
