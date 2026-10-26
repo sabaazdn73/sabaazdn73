@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Engineering × AI](#engineering) · [Building now](#building) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [Engineering × AI](#engineering) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -38,6 +38,8 @@ Everything I build follows one idea: **results you can verify**. Today that's **
 </table>
 
 <a href="https://www.tnega.app/town/"><img src="assets/codetown.svg" alt="RC Code Town on tnega.app: six concrete structures at true scale, the checks that matter and where AI goes wrong" width="100%"/></a>
+
+<a href="https://www.youtube.com/watch?v=JYRgS2VCLQQ"><img src="assets/card-talk.svg" alt="Video, 4 minutes: how AI is trained on structural engineering, and why an engineer stays in the loop. Watch on YouTube" width="50%"/></a>
 
 </div>
 
