@@ -39,12 +39,7 @@ Everything I build follows one idea: **results you can verify**. Today that's **
 
 <a href="https://www.tnega.app/town/"><img src="assets/codetown.svg" alt="RC Code Town on tnega.app: six concrete structures at true scale, the checks that matter and where AI goes wrong" width="100%"/></a>
 
-<table>
-<tr>
-<td width="58%"><a href="https://www.youtube.com/watch?v=JYRgS2VCLQQ"><img src="https://img.youtube.com/vi/JYRgS2VCLQQ/maxresdefault.jpg" alt="Watch on YouTube: How AI is trained on structural engineering, a talk by Saba Azadegan" width="100%"/></a></td>
-<td width="42%"><a href="https://www.youtube.com/watch?v=JYRgS2VCLQQ"><img src="assets/card-talk.svg" alt="Video, 4 minutes: how AI is trained on structural engineering, and why an engineer stays in the loop. Watch on YouTube" width="100%"/></a></td>
-</tr>
-</table>
+<a href="https://www.youtube.com/watch?v=JYRgS2VCLQQ"><img src="assets/video.svg" alt="Talk, 4 minutes: How AI is trained on structural engineering, by Saba Azadegan. Watch on YouTube" width="100%"/></a>
 
 ▶️ **[Watch the talk on YouTube](https://www.youtube.com/watch?v=JYRgS2VCLQQ)**: how a realistic engineering task is designed, how AI models attempt it and are graded against an answer key, and why a structural engineer stays in control of the loop.
 
