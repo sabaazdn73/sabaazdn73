@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Engineering × AI](#engineering) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [Engineering × AI](#engineering) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -13,7 +13,7 @@
 
 <p align="center"><img src="assets/saba.svg" alt="Saba" width="150"/></p>
 
-I'm a **structural engineer** (MSc, Kharazmi University) who now works where engineering meets AI. I design expert-level structural engineering tasks that show where AI models go wrong when they apply **ACI 318-19** and **ASCE 7-16**, and I check every expected answer by hand against the code.
+I'm a **structural engineer** (MSc, Kharazmi University) who now works where engineering meets AI. I design expert-level structural engineering tasks that show where AI models go wrong when they apply **ACI 318** and **ASCE 7**, often in a different edition from the one the project's jurisdiction adopted, and I check every expected answer by hand against the code. I also build the tools that measure it: an open-source **[evaluation harness](https://github.com/sabaazdn73/expert-eval-harness)** and a private library of the adopted code editions.
 
 Before that I worked on a cast-in-place reinforced concrete project, doing the full **quantity takeoff and cost estimate** and supervising foundation and rebar work on site. I also hold an **MSc in Business from Católica Lisbon**.
 
@@ -28,7 +28,7 @@ Everything I build follows one idea: **results you can verify**. Today that's **
 
 <table>
 <tr>
-<td><a href="https://www.linkedin.com/in/saba-azadegan-2974b622a"><img src="assets/card-aieval.svg" alt="AI evaluation: expert structural tasks that show where AI misapplies ACI 318-19 and ASCE 7-16" width="100%"/></a></td>
+<td><a href="https://www.linkedin.com/in/saba-azadegan-2974b622a"><img src="assets/card-aieval.svg" alt="AI evaluation: expert structural tasks that show where AI misapplies the adopted ACI 318 and ASCE 7" width="100%"/></a></td>
 <td><a href="https://www.tnega.app/town/"><img src="assets/card-codetown.svg" alt="RC Code Town: six concrete structures in 3D, the governing provisions and where AI tends to go wrong" width="100%"/></a></td>
 </tr>
 <tr>
@@ -64,6 +64,24 @@ The earlier product, **[Tnega Finance](https://www.tnega.app/finance)**, still r
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="architecture"></a>
+<img src="assets/h-architecture.svg" alt="How it fits together" width="100%"/>
+
+<img src="assets/architecture.svg" alt="How my work fits together: an expert designs the task, Claude models attempt it, an equipped grader checks the answer, a report applies difficulty and quality gates, and a human signs off. A private library of adopted code editions serves the models, the grader and Tnega." width="100%"/>
+
+</div>
+
+**What I'm working on now:**
+
+- **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)** runs expert tasks on Claude models and grades them against a full expert answer key, item by item. The grader is equipped: it recomputes the numbers in a code sandbox, checks the figures against the input files, reads the governing clause in the code library, and flags possible problems in the key itself for a human to review. It reports pass@k and pass^k and gates tasks on difficulty and releases on quality.
+- **A case study:** does giving a smaller model the right code library (the edition the jurisdiction actually adopted) fix the errors it makes on structural tasks? The same tasks run with and without the library, and the report lists what the model looked up.
+- **The method behind it**, [Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md): the human leads where the truth is outside the model (jurisdiction, adopted edition, real site status) or where an AI error would run in the same direction as the test. AI drafts, builds files and repeats calculations.
+- **A code library as an MCP server**, private because the standards are licensed: full-text search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table that answers which edition a permit actually needs.
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
 <a id="born"></a>
 <img src="assets/h-born.svg" alt="Where Tnega was born" width="100%"/>
 
@@ -90,7 +108,12 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 <td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle" width="100%"/></a></td>
 </tr>
 <tr>
-<td colspan="2" align="center"><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="50%"/></td>
+<td><a href="https://github.com/sabaazdn73/expert-eval-harness"><img src="assets/card-harness.svg" alt="expert-eval-harness: expert tasks and answer keys, an equipped grader, pass@k and quality gates" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/heygen-avatar-director-skill-for-claude"><img src="assets/card-heygen.svg" alt="HeyGen Avatar Director: a Claude Agent Skill that directs HeyGen avatars beat by beat" width="100%"/></a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude"><img src="assets/card-veo.svg" alt="Gemini Veo Studio: a Claude Agent Skill that makes videos with Google Veo 3.1" width="100%"/></a></td>
+<td><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="100%"/></td>
 </tr>
 </table>
 
@@ -99,7 +122,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 <a id="toolkit"></a>
 <img src="assets/h-toolkit.svg" alt="Engineering toolkit" width="100%"/>
 
-<img src="assets/stack-eng.svg" alt="ACI 318-19, ASCE 7-16, IBC, ETABS, SAFE, Abaqus, AutoCAD, Python, Excel, quantity takeoff, structural dynamics" width="100%"/>
+<img src="assets/stack-eng.svg" alt="ACI 318-19, ASCE 7, IBC, ETABS, SAFE, Abaqus, AutoCAD, Python, Excel, quantity takeoff, structural dynamics" width="100%"/>
 
 <a id="stack"></a>
 <img src="assets/h-stack.svg" alt="Tech stack and chains" width="100%"/>
