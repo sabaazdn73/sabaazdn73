@@ -65,7 +65,7 @@ Commercial, office and multi-storey parking building in cast-in-place reinforced
 
 ### Programmes and certifications
 
-- Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (in progress).
+- Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School, completed Oct 2026.
 - Deep Dive into Blockchain, University of Zurich International Summer School, Jul 2026.
 - Hedera Business Foundation, Hedera Certified Foundation and Hashgraph Developer Course (2026); Introduction to Agents, Mercor (2026).
 
