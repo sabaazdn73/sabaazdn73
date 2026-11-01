@@ -17,7 +17,7 @@ Right now I test frontier AI models on real structural engineering work. I write
 ### Expert evaluations of frontier AI models
 *Independent, open source · Oct 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
 
-- Built a harness that runs expert tasks on Claude models, several trials each, and scores every answer item by item against a written expert key, with pass@k, pass^k and difficulty and quality gates.
+- Built a harness that runs expert tasks on Claude models and scores every answer item by item against a written expert key with deterministic scoring criteria, reporting pass@k, pass^k, difficulty and quality gates.
 - The grader recomputes the numbers in a code sandbox, checks figures against the task files, reads the governing clause in a local library of code editions, and flags possible errors in the key for a human to review.
 - Running a case study on whether giving a smaller model the code edition the jurisdiction actually adopted fixes its errors on structural tasks.
 - Wrote up the method, "Where the Human Belongs": the human leads where the truth is outside the model, such as the adopted code edition or the real site status.
@@ -25,8 +25,8 @@ Right now I test frontier AI models on real structural engineering work. I write
 ### AI Trainer, Civil and Structural Engineering
 *DataAnnotation · Remote, freelance · Oct 2026 to Nov 2026*
 
-- Designed expert-level structural engineering tasks, with realistic drawing sets, specifications and answer keys, that expose where AI agents misapply reinforced concrete design rules.
-- Checked every expected answer by hand against the code text, mainly ACI 318-19 and ASCE 7-16 and 7-22, and set fair tolerances for alternative methods a competent engineer could use.
+- Designed expert-level structural engineering AI training tasks with realistic drawing sets, specifications and answer keys to expose where AI agents misapply reinforced concrete design rules.
+- Wrote reference solutions and checked them by hand against ACI 318-19 and ASCE 7-16/7-22, setting fair tolerances for alternative methods a competent engineer could use.
 - Reviewed AI output for errors with real safety or cost consequences and documented clearly why each answer is right or wrong.
 
 ### Generalist Expert, AI output evaluation
@@ -72,10 +72,10 @@ Commercial, office and multi-storey parking building in cast-in-place reinforced
 
 ## Skills
 
-- **Analysis and design:** ETABS, SAFE, Abaqus (finite element analysis), structural dynamics and modal analysis.
+- **Analysis and design:** Finite Element Analysis (FEA) in Abaqus; ETABS, SAFE; structural dynamics and modal analysis.
 - **Codes:** ACI 318-19 reinforced concrete design and detailing; ASCE 7-16 and 7-22 loads; checking which edition a jurisdiction has adopted; reading drawings against specifications.
 - **Construction:** quantity takeoff and cost estimating, rebar and concrete quantities, site supervision of foundations and reinforcement.
-- **AI evaluation:** expert task and answer-key design, rubric and key-based grading, LLM judges, pass@k; Claude API, tool use and MCP.
+- **AI evaluation:** AI training task design, reference solutions and answer keys, rubric and key-based grading, LLM judges, pass@k; Claude API, tool use and MCP.
 - **Business:** financial reporting, cost control, valuation and derivatives, data analysis in Python and Excel.
 - **Tools:** Python, AutoCAD, Excel.
 - **Languages:** English (professional), Portuguese (basic), Persian (native).
