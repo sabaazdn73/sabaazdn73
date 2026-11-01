@@ -21,9 +21,11 @@
   a { color: var(--link); text-decoration: none; }
   a:hover { text-decoration: underline; }
   @media print {
-    @page { size: A4; margin: 14mm 14mm; }
-    body { font-size: 10pt; line-height: 1.38; max-width: none; padding: 0; }
-    h2 { margin: 14px 0 6px; }
+    @page { size: A4; margin: 12mm 14mm; }
+    body { font-size: 9.5pt; line-height: 1.3; max-width: none; padding: 0; }
+    h2 { margin: 11px 0 5px; }
+    h3 { margin-top: 9px; }
+    li { margin: 1px 0; }
     h3 { break-after: avoid; }
     a { color: var(--link); }
   }
@@ -31,58 +33,75 @@
 </head>
 <body>
 <h1>Saba Azadegan</h1>
-<p>Structural engineer (MSc) · AI trainer for civil and structural engineering</p>
+<p>Structural engineer (MSc) · AI evaluation for civil and structural engineering</p>
 <p>Lisbon, Portugal · Open to relocation · <a href="mailto:sabaazad93@gmail.com">sabaazad93@gmail.com</a></p>
 <p><a href="https://linkedin.com/in/saba-azadegan-2974b622a">linkedin.com/in/saba-azadegan-2974b622a</a> · <a href="https://github.com/sabaazdn73">github.com/sabaazdn73</a> · <a href="https://www.tnega.app">tnega.app</a> · <a href="https://medium.com/@sabaazadegan">medium.com/@sabaazadegan</a> · <a href="https://x.com/SabaAzadegan">x.com/SabaAzadegan</a></p>
 <h2>Profile</h2>
-<p>Structural engineer with an MSc in structural engineering and site experience on a cast-in-place reinforced concrete project, where I carried out the full quantity takeoff and cost estimate and supervised foundation and reinforcement work. My academic work covered structural design and structural dynamics, with building analysis in ETABS and SAFE and finite element modelling in Abaqus. I now design expert-level structural engineering tasks and answer keys that test how well AI models apply reinforced concrete design and US building codes. I also hold an MSc in Business from Católica Lisbon.</p>
-<h2>Engineering experience</h2>
-<h3>AI Trainer, Civil and Structural Engineering</h3>
-<p><em>DataAnnotation · Remote, freelance · Oct 2026 to present</em></p>
+<p>Structural engineer with site experience on a cast-in-place reinforced concrete project, where I did the full quantity takeoff and cost estimate, prepared the project's financial reports and supervised foundation and reinforcement work. My engineering studies covered structural design and structural dynamics, with ETABS, SAFE and Abaqus, and an MSc in Business from Católica Lisbon added finance and data analysis.</p>
+<p>Right now I test frontier AI models on real structural engineering work. I write expert tasks with answer keys, run them on Claude models in an open-source evaluation harness, and look for the failures that matter: a superseded code edition, a multi-part clause checked only halfway, or a number taken from a document without checking it.</p>
+<h2>Experience</h2>
+<h3>Expert evaluations of frontier AI models</h3>
+<p><em>Independent, open source · Oct 2026 to present · <a href="https://github.com/sabaazdn73/expert-eval-harness">github.com/sabaazdn73/expert-eval-harness</a></em></p>
 <ul>
-<li>Design expert-level structural engineering tasks, with realistic drawing sets, specifications and answer keys, that expose where AI agents misapply reinforced concrete design rules.</li>
-<li>Check every expected answer by hand against the code text, mainly ACI 318-19 and ASCE 7-16, and set fair tolerances for alternative methods a competent engineer could use.</li>
-<li>Review AI output for errors with real safety or cost consequences and document clearly why each answer is right or wrong.</li>
+<li>Built an evaluation harness that runs expert tasks on Claude models, several trials each, and scores every answer item by item against a written expert key, with pass@k, pass^k and difficulty and quality gates.</li>
+<li>The grader recomputes the numbers in a code sandbox, checks figures against the task files, reads the governing clause in a local library of code editions, and flags possible errors in the key for a human to review.</li>
+<li>Running a case study on whether giving a smaller model the code edition the jurisdiction actually adopted fixes its errors on structural tasks.</li>
+<li>Wrote up the method, "Where the Human Belongs": the human leads where the truth is outside the model, such as the adopted code edition or the real site status, and AI does the drafting and repeated calculations.</li>
+</ul>
+<h3>AI Trainer, Civil and Structural Engineering</h3>
+<p><em>DataAnnotation · Remote, freelance · Oct 2026 to Nov 2026</em></p>
+<ul>
+<li>Designed expert-level structural engineering tasks, with realistic drawing sets, specifications and answer keys, that expose where AI agents misapply reinforced concrete design rules.</li>
+<li>Checked every expected answer by hand against the code text, mainly ACI 318-19 and ASCE 7-16 and 7-22, and set fair tolerances for alternative methods a competent engineer could use.</li>
+<li>Reviewed AI output for errors with real safety or cost consequences and documented clearly why each answer is right or wrong.</li>
+</ul>
+<h3>Generalist Expert, AI output evaluation</h3>
+<p><em>Mercor · Remote, freelance · Aug 2026</em></p>
+<ul>
+<li>Reviewed and rated AI answers for accuracy, reasoning, instruction-following and usefulness, and wrote down why.</li>
 </ul>
 <h3>Civil Engineer (internship), Parvin mixed-use project</h3>
 <p><em>Aghigh Naghsh-e-Jahan Investment Holding · Isfahan, Iran · May 2018 to Oct 2018</em></p>
 <p>Commercial, office and multi-storey parking building in cast-in-place reinforced concrete.</p>
 <ul>
 <li>Carried out the full quantity takeoff and cost estimate for the structure: concrete volumes and rebar quantities for foundations, columns, beams and slabs, taken from AutoCAD structural drawings and calculated in Excel.</li>
+<li>Prepared the project's financial reports and supported the project manager with planning and coordination.</li>
 <li>Supervised foundation works and rebar mesh installation on site.</li>
 <li>Attended concrete pours and visited the ready-mix supplier's laboratory.</li>
 </ul>
 <h2>Education</h2>
+<h3>MSc in Business</h3>
+<p><em>Católica Lisbon School of Business and Economics, Portugal · 2023 to Sep 2026</em></p>
+<ul>
+<li>Business statistics, corporate finance, financial decisions and derivatives; led a team project on valuing a convertible bond in Advanced Finance.</li>
+<li>Thesis: identity verification without a single trusted authority, tested with a 5,000-round simulation in Python.</li>
+</ul>
 <h3>MSc in Civil Engineering, Structural Engineering</h3>
 <p><em>Kharazmi University, Iran · Sep 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95)</em></p>
 <ul>
-<li>About a year and a half of work in structural dynamic analysis, including damage detection in bridges.</li>
-<li>Finite element modelling in Abaqus; top grade of 18/20 in Finite Element Methods.</li>
+<li>About a year and a half of work in structural dynamic analysis, including damage detection in bridges; finite element modelling in Abaqus (18/20 in Finite Element Methods).</li>
 </ul>
 <h3>BSc in Civil Engineering</h3>
 <p><em>Azad University, West Tehran Branch · Sep 2012 to Dec 2016 · GPA 15.84/20</em></p>
 <ul>
 <li>About two years of structural design projects, with analysis and design in ETABS and SAFE.</li>
-<li>Spaghetti Structures competition, Shahid Beheshti University, 2015.</li>
-<li>Professional training: AutoCAD (2015) and ETABS and SAFE (2016), Tehran Institute of Technology.</li>
-</ul>
-<h3>MSc in Business</h3>
-<p><em>Católica Lisbon School of Business and Economics, Portugal · 2023 to Sep 2026</em></p>
-<ul>
-<li>Business statistics, financial decisions, derivatives. Thesis: identity verification without a single trusted authority, tested with a 5,000-round simulation in Python.</li>
+<li>Spaghetti Structures competition (Shahid Beheshti University, 2015); training in AutoCAD, ETABS and SAFE (Tehran Institute of Technology, 2015 to 2016).</li>
 </ul>
 <h3>Programmes and certifications</h3>
 <ul>
-<li>Deep Dive into Blockchain, University of Zurich International Summer School, Jul 2026.</li>
 <li>Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (in progress).</li>
+<li>Deep Dive into Blockchain, University of Zurich International Summer School, Jul 2026.</li>
 <li>Hedera Business Foundation, Hedera Certified Foundation and Hashgraph Developer Course (2026); Introduction to Agents, Mercor (2026).</li>
 </ul>
-<h2>Engineering skills</h2>
+<h2>Skills</h2>
 <ul>
 <li><strong>Analysis and design:</strong> ETABS, SAFE, Abaqus (finite element analysis), structural dynamics and modal analysis.</li>
-<li><strong>Codes:</strong> ACI 318-19 reinforced concrete design and detailing; ASCE 7-16 loads; reading drawings against specifications.</li>
+<li><strong>Codes:</strong> ACI 318-19 reinforced concrete design and detailing; ASCE 7-16 and 7-22 loads; checking which edition a jurisdiction has adopted; reading drawings against specifications.</li>
 <li><strong>Construction:</strong> quantity takeoff and cost estimating, rebar and concrete quantities, site supervision of foundations and reinforcement.</li>
-<li><strong>Tools:</strong> AutoCAD, Excel, Python.</li>
+<li><strong>AI evaluation:</strong> expert task and answer-key design, rubric and key-based grading, LLM judges, pass@k; Claude API, tool use and MCP.</li>
+<li><strong>Business:</strong> financial reporting, cost control, valuation and derivatives, data analysis in Python and Excel.</li>
+<li><strong>Tools:</strong> Python, AutoCAD, Excel.</li>
+<li><strong>Languages:</strong> English (professional), Portuguese (basic), Persian (native).</li>
 </ul>
 <h2>Research</h2>
 <h3>Financial Damage Detection Index</h3>
@@ -97,27 +116,19 @@
 <li>IFABS Grant for Young Researchers, IFABS 2026 London Conference.</li>
 <li>Full scholarship of 1,000 CHF, University of Zurich International Summer School, 2026.</li>
 </ul>
-<h2>Other experience and projects</h2>
-<h3>Generalist Expert, AI output evaluation</h3>
-<p><em>Mercor · Remote, freelance · Aug 2026</em></p>
-<ul>
-<li>Reviewed and rated AI answers for accuracy, reasoning, instruction-following and usefulness, and wrote down why.</li>
-</ul>
+<h2>Projects</h2>
 <h3>Tnega: AI review of structural drawings, and Tnega Finance</h3>
 <p><em>Founder · 2026 · <a href="https://www.tnega.app">tnega.app</a> · <a href="https://www.tnega.app/finance">tnega.app/finance</a></em></p>
 <ul>
-<li>tnega.app: building an AI agent that will check reinforced concrete drawings against ACI 318-19 and ASCE 7-16 and send every life-safety finding to an engineer (in development).</li>
-<li>The site shows an interactive 3D code town of six concrete structure types (office building, residential tower, parking structure, foundations and retaining walls, bridge, mixed-use podium building). Each member shows its governing code provisions and where general AI models tend to go wrong.</li>
-<li>Tnega Finance (tnega.app/finance): shows the full cost of buying a tokenized stock or ETF on each chain, with a free MCP server that lets AI assistants compare costs and prepare orders the user signs in their own wallet.</li>
-<li>Wrote an escrow contract deployed on four chains; it passed 33 hostile test cases on a copy of the real network.</li>
+<li>tnega.app: building an AI agent that will check reinforced concrete drawings against the adopted editions of ACI 318 and ASCE 7 and send every life-safety finding to an engineer (in development).</li>
+<li>The site shows a 3D code town of six concrete structure types, with each member's governing provisions and where AI models tend to go wrong.</li>
+<li>Tnega Finance: the full cost of buying a tokenized stock or ETF on each chain, with an MCP server for AI assistants; orders are signed in the user's own wallet. Its escrow contract, deployed on four chains, passed 33 hostile test cases.</li>
 </ul>
 <h3>F2F Cross-Border and TrustCycle</h3>
 <p><em>Jul 2026 and 2026 · <a href="https://f2f-uzh.vercel.app">f2f-uzh.vercel.app</a> · <a href="https://www.trustcycle.tech">trustcycle.tech</a></em></p>
 <ul>
-<li>F2F: led the design of a cross-border transfer system where every compliance and routing decision is recorded on a public ledger.</li>
+<li>F2F: led the design of a cross-border transfer system that records every compliance and routing decision on a public ledger.</li>
 <li>TrustCycle: decentralised academic recommendation letters; ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.</li>
 </ul>
-<h2>Languages</h2>
-<p>English (professional) · Portuguese (basic) · Persian (native)</p>
 </body>
 </html>
