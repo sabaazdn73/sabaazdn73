@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Engineering × AI](#engineering) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [Engineering × AI](#engineering) · [New: micro1 eval](#hackathon) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -51,6 +51,27 @@ General AI models read drawings well. Where they go wrong is **applying the code
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
+<a id="hackathon"></a>
+<img src="assets/h-hackathon.svg" alt="New: micro1 Eval Hackathon" width="100%"/>
+
+<a href="https://www.youtube.com/watch?v=IWcEG7c-mQU"><img src="https://img.youtube.com/vi/IWcEG7c-mQU/hqdefault.jpg" alt="Watch on YouTube: Structural Review Eval, where frontier models sign off on unsafe engineering" width="100%"/></a>
+
+▶️ **[Watch the walkthrough on YouTube](https://www.youtube.com/watch?v=IWcEG7c-mQU)** (under 5 minutes)
+
+</div>
+
+**Structural Review Eval** (micro1 Eval Hackathon, November 2026): six review packages for one parking structure in Salt Lake City, each with drawings, calculations, submittals and a junior engineer's draft review that looks finished and is wrong. Four frontier models (Claude Haiku 5.5, Claude Sonnet 5.5, Gemini 3.8 Flash, Gemini 4 Argon) ran 42 trials, scored item by item against my expert answer keys by two graders from different model families (96% item agreement, kappa 0.91).
+
+- **0 of 42 passed.** The models did the arithmetic (100% of the computation items) but used the neighbouring clause, an older code edition, or skipped checks the draft never raised.
+- **The sandbox changed a score.** In Vertex AI's own code tool Gemini 4 Argon wrote no answer on the hardest task; in one local sandbox shared by all models it scored 8 of 14.
+- **With the code library as look-up tools, 13 of 42 passed.** Governing-clause items rose from 0% to 73%, but one required check was still missed by every answer, and 10 trials ran out of turns while still reading.
+
+<p align="center"><img src="assets/hackathon-library.png" alt="Key items earned by kind, without and with the code library as look-up tools: governing clause 0% to 73%, checks the draft did not raise 0% to 44%, current edition 21% to 50%" width="100%"/></p>
+
+<div align="center">
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
 <a id="building"></a>
 <img src="assets/h-building.svg" alt="Building now" width="100%"/>
 
@@ -73,8 +94,8 @@ The earlier product, **[Tnega Finance](https://www.tnega.app/finance)**, still r
 
 **What I'm working on now:**
 
-- **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)** runs expert tasks on Claude models and grades them against a full expert answer key, item by item. The grader is equipped: it recomputes the numbers in a code sandbox, checks the figures against the input files, reads the governing clause in the code library, and flags possible problems in the key itself for a human to review. It reports pass@k and pass^k and gates tasks on difficulty and releases on quality.
-- **A case study:** does giving a smaller model the right code library (the edition the jurisdiction actually adopted) fix the errors it makes on structural tasks? The same tasks run with and without the library, and the report lists what the model looked up.
+- **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)** runs expert tasks on Claude and Gemini models, in one local sandbox shared by all of them, and grades them against a full expert answer key, item by item. The grader is equipped: it recomputes the numbers in a code sandbox, checks the figures against the input files, reads the governing clause in the code library, and flags possible problems in the key itself for a human to review. It reports pass@k and pass^k and gates tasks on difficulty and releases on quality.
+- **A case study:** does giving a smaller model the right code library (the edition the jurisdiction actually adopted) fix the errors it makes on structural tasks? The same tasks run with and without the library, and the report lists what the model looked up. First result, from the [hackathon run](#hackathon): passes rose from 0 to 13 of 42, mostly because the governing clause was found.
 - **The method behind it**, [Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md): the human leads where the truth is outside the model (jurisdiction, adopted edition, real site status) or where an AI error would run in the same direction as the test. AI drafts, builds files and repeats calculations.
 - **A code library as an MCP server**, private because the standards are licensed: full-text search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table that answers which edition a permit actually needs.
 
