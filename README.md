@@ -54,7 +54,7 @@ General AI models read drawings well. Where they go wrong is **applying the code
 <a id="hackathon"></a>
 <img src="assets/h-hackathon.svg" alt="New: micro1 Eval Hackathon" width="100%"/>
 
-<a href="https://www.youtube.com/watch?v=IWcEG7c-mQU"><img src="https://img.youtube.com/vi/IWcEG7c-mQU/hqdefault.jpg" alt="Watch on YouTube: Structural Review Eval, where frontier models sign off on unsafe engineering" width="100%"/></a>
+<a href="https://www.youtube.com/watch?v=IWcEG7c-mQU"><img src="assets/hackathon-video.jpg" alt="Watch on YouTube: Structural Review Eval, where frontier models sign off on unsafe engineering" width="100%"/></a>
 
 ▶️ **[Watch the walkthrough on YouTube](https://www.youtube.com/watch?v=IWcEG7c-mQU)** (under 5 minutes)
 
