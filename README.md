@@ -147,7 +147,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 </div>
 
-I studied photography for about two years, first in the photography course at the **University of Tehran** and then on my own, and I have photographed since 2017: landscape, architecture and interiors, still life, product and food, and light painting. **204 photographs in 16 albums**, taken on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my **[portfolio on tnega.app](https://www.tnega.app/photography/)**.
+I studied photography for about two years, first in the photography course at the **University of Tehran** and then on my own, and I have photographed since 2017: landscape, architecture and interiors, still life, product and food, and light painting. **238 photographs in 16 albums**, taken on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my **[portfolio on tnega.app](https://www.tnega.app/photography/)**.
 
 <div align="center">
 

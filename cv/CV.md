@@ -49,7 +49,7 @@ Commercial, office and multi-storey parking building in cast-in-place reinforced
 ### Photographer and AI image maker, personal practice
 *Photography 2017 to present · AI imagery 2026 · [portfolio](https://www.tnega.app/photography/) · [ComfyUI album](https://www.tnega.app/photography/#comfyui) · [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude)*
 
-- Photography: about two years of study, first in the photography course at the University of Tehran, then on my own; landscape, architecture and interiors, still life, product and food, and light painting; 204 photographs in 16 photo albums.
+- Photography: about two years of study, first in the photography course at the University of Tehran, then on my own; landscape, architecture and interiors, still life, product and food, and light painting; 238 photographs in 16 photo albums.
 - AI images from my own photographs: ran ComfyUI on my own laptop and made 24 images, each starting from a blend of two of my photographs that share an idea, reworked image to image with the open DreamShaper 8 LCM model.
 - AI imagery: designed the brand, logo, images and page layouts for JaFendiLé, a cake and pastry business, and for Tnega, my own project, combining Gemini, ChatGPT and Claude; 19 are in the portfolio's Digital art album.
 - AI video: Gemini Veo Studio, an open-source Agent Skill that lets Claude make short videos with Google Veo 3.1 through the Gemini API; on GitHub and the Agensi skills marketplace.
