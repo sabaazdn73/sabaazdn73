@@ -35,12 +35,13 @@ page = f"""<!doctype html>
   a {{ color: var(--link); text-decoration: none; }}
   a:hover {{ text-decoration: underline; }}
   @media print {{
-    @page {{ size: A4; margin: 10mm 14mm; }}
-    body {{ font-size: 9.4pt; line-height: 1.28; max-width: none; padding: 0; }}
-    h2 {{ margin: 11px 0 5px; }}
-    h3 {{ margin-top: 9px; }}
+    @page {{ size: A4; margin: 9mm 13mm; }}
+    body {{ font-size: 9pt; line-height: 1.21; max-width: none; padding: 0; }}
+    h2 {{ margin: 9px 0 4px; }}
+    p {{ margin: 4px 0; }}
+    h3 {{ margin-top: 7px; }}
     li {{ margin: 1px 0; }}
-    h3 {{ break-after: avoid; }}
+    h2, h3 {{ break-after: avoid; }}
     a {{ color: var(--link); }}
   }}
 </style>

@@ -2,7 +2,7 @@
 
 <img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Engineering × AI](#engineering) · [New: micro1 eval](#hackathon) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [Engineering × AI](#engineering) · [New: micro1 eval](#hackathon) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Photography](#photography) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -17,7 +17,7 @@ I'm a **structural engineer** (MSc, Kharazmi University) who now works where eng
 
 Before that I worked on a cast-in-place reinforced concrete project, doing the full **quantity takeoff and cost estimate** and supervising foundation and rebar work on site. I also hold an **MSc in Business from Católica Lisbon**.
 
-Everything I build follows one idea: **results you can verify**. Today that's **[Tnega](https://www.tnega.app)**, an AI reviewer for structural drawings that I'm building, and Fendi, the cat in the banner, is its mascot.
+Everything I build follows one idea: **results you can verify**. Today that's **[Tnega](https://www.tnega.app)**, an AI reviewer for structural drawings that I'm building, and Fendi, the cat in the banner, is its mascot. Away from engineering I am a photographer: see [Photography](#photography).
 
 <div align="center">
 
@@ -137,6 +137,29 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 <td><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="100%"/></td>
 </tr>
 </table>
+
+<img src="assets/divider.svg" alt="" width="100%"/>
+
+<a id="photography"></a>
+<img src="assets/h-photography.svg" alt="Photography" width="100%"/>
+
+<a href="https://www.tnega.app/photography/"><img src="assets/photography-grid.jpg" alt="Eight of my photographs: Mount Damavand from Lasem, a wooden balcony on an old house in Khansar, the Sheikh Lotfollah dome in Isfahan, the Belém Tower as the sun breaks through clouds, a light painting, a wristwatch on a glass-topped case in warm light, autumn leaves in a round mirror, and jacaranda trees in Lisbon" width="100%"/></a>
+
+</div>
+
+I studied photography for about two years, first in the photography course at the **University of Tehran** and then on my own, and I have photographed since 2017: landscape, architecture and interiors, still life, product and food, and light painting. **204 photographs in 16 albums**, taken on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my **[portfolio on tnega.app](https://www.tnega.app/photography/)**.
+
+<div align="center">
+
+<a href="https://www.tnega.app/photography/#comfyui"><img src="assets/comfyui-grid.jpg" alt="Four images I made with ComfyUI from my own photographs: Damavand under trails of light, a tiled dome standing in the sea, a bridge at blue hour, and a glass ball holding a mountain valley" width="100%"/></a>
+
+</div>
+
+**New: AI images made from my own photographs.** I ran **ComfyUI**, the open-source image tool, on my own laptop and made 24 images. Each one starts from a blend of two of my photographs that share an idea (Damavand under a light painting, the Sheikh Lotfollah dome beside the Tagus, the bridges of Lisbon and Tehran) and is reworked image to image with the open DreamShaper 8 LCM model. Every image is captioned with its idea and its two source photographs: **[see the album](https://www.tnega.app/photography/#comfyui)**.
+
+I also design brand images and logos with Gemini, ChatGPT and Claude (19 works in the [Digital art album](https://www.tnega.app/photography/#digital)) and make short videos with Veo through my own [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude) skill.
+
+<div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
