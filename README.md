@@ -155,7 +155,7 @@ I studied photography for about two years, first in the photography course at th
 
 </div>
 
-**New: AI images made from my own photographs.** I ran **ComfyUI**, the open-source image tool, on my own laptop and made 24 images. Each one starts from a blend of two of my photographs that share an idea (Damavand under a light painting, the Sheikh Lotfollah dome beside the Tagus, the bridges of Lisbon and Tehran) and is reworked image to image with the open DreamShaper 8 LCM model. Every image is captioned with its idea and its two source photographs: **[see the album](https://www.tnega.app/photography/#comfyui)**.
+**New: AI images made from my own photographs.** I ran **ComfyUI**, the open-source image tool, on my own laptop and made 24 images. Each one starts from a blend of two of my photographs that share an idea (Damavand under a light painting, the Sheikh Lotfollah dome beside the Tagus, the bridges of Lisbon and Tehran) and is reworked image to image with the open DreamShaper 8 LCM model. **[See the album](https://www.tnega.app/photography/#comfyui)**.
 
 I also design brand images and logos with Gemini, ChatGPT and Claude (19 works in the [Digital art album](https://www.tnega.app/photography/#digital)) and make short videos with Veo through my own [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude) skill.
 
