@@ -19,6 +19,16 @@ Before that I worked on a cast-in-place reinforced concrete project, doing the f
 
 Everything I build follows one idea: **results you can verify**. Today that's **[Tnega](https://www.tnega.app)**, an AI reviewer for structural drawings that I'm building, and Fendi, the cat in the banner, is its mascot. Away from engineering I am a photographer: see [Photography](#photography).
 
+**At a glance**
+
+- **Now (since Aug 2026):** freelance AI evaluation for structural engineering, first rating AI answers at Mercor, then designing expert tasks at DataAnnotation, now my own research and open-source tools. About 320 hours of expert task design.
+- **Research:** two sole-author conference abstracts under review, at EG-ICE 2027 (Lund) and ISEC-2027 (Pomona, California), on where language models fail in structural engineering review. My paper FDDI was accepted at IFABS 2026 (London).
+- **On site (2018):** six months on the Parvin project in Isfahan, a cast-in-place reinforced concrete commercial, office and parking building: the full quantity takeoff and cost estimate, the project's financial reports, and supervision of foundation and rebar work.
+- **MSc Structural Engineering** (Kharazmi University, 2021): structural dynamics, finite element modelling in Abaqus, bridge damage detection and a seminar on structural health monitoring.
+- **BSc Civil Engineering** (2016): about two years of reinforced concrete building design in ETABS and SAFE.
+- **MSc in Business** (Católica Lisbon, 2026, taught in English): finance and data analysis; thesis graded 17/20.
+- **Open source:** [expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness), the [Open Structural BIM Course](https://github.com/sabaazdn73/open-structural-bim-course) and [Tnega](https://github.com/sabaazdn73/tnega).
+
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
@@ -95,9 +105,12 @@ The earlier product, **[Tnega Finance](https://www.tnega.app/finance)**, still r
 **What I'm working on now:**
 
 - **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)** runs expert tasks on Claude and Gemini models, in one local sandbox shared by all of them, and grades them against a full expert answer key, item by item. The grader is equipped: it recomputes the numbers in a code sandbox, checks the figures against the input files, reads the governing clause in the code library, and flags possible problems in the key itself for a human to review. It reports pass@k and pass^k and gates tasks on difficulty and releases on quality.
+- **[A Review Notebook for Civil Engineers to Evaluate Frontier Models](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/review-notebook/README.md)** (November 2026): structural fundamentals module by module, each section with a worked example and figure, a practice problem, a trap to test on AI models and the check a review agent should run. Three modules are written, load path and static equilibrium, loads and load combinations (ASCE 7-22 and Eurocodes), and structural analysis (ACI 318-19 and Eurocodes), with eight key-scored tasks each in the harness.
+- **A task pipeline dashboard** for building tasks with that method: the nine stages and three human gates, the signed design-basis sheet, file checks, the decision log and model runs. A read-only copy shows progress and results without the prompts, keys or traps: [tnega.app/eval](https://www.tnega.app/eval/).
 - **A case study:** does giving a smaller model the right code library (the edition the jurisdiction actually adopted) fix the errors it makes on structural tasks? The same tasks run with and without the library, and the report lists what the model looked up. First result, from the [Structural Review Eval run](#structural-review-eval): passes rose from 0 to 13 of 42, mostly because the governing clause was found.
 - **The method behind it**, [Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md): the human leads where the truth is outside the model (jurisdiction, adopted edition, real site status) or where an AI error would run in the same direction as the test. AI drafts, builds files and repeats calculations.
 - **A code library as an MCP server**, private because the standards are licensed: full-text search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table that answers which edition a permit actually needs.
+- **[Open Structural BIM Course](https://github.com/sabaazdn73/open-structural-bim-course)**: a free course in which you model one small reinforced concrete building, TB-01, from levels and grids to the issued model, in 32 exercises with steps for two free programs, FreeCAD and Bonsai (Blender). A checker I wrote in Python reads your IFC file and tells you what is right and what is not; it also runs in the browser at [tnega.app/bim](https://www.tnega.app/bim/), so your file is never uploaded.
 
 <div align="center">
 
@@ -125,16 +138,19 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 <td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-f2f.svg" alt="F2F Cross-Border" width="100%"/></a></td>
 </tr>
 <tr>
+<td><a href="https://github.com/sabaazdn73/expert-eval-harness"><img src="assets/card-harness.svg" alt="expert-eval-harness: expert tasks and answer keys, an equipped grader, pass@k and quality gates" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/open-structural-bim-course"><img src="assets/card-bim.svg" alt="Open Structural BIM Course: 32 exercises on one reinforced concrete building in FreeCAD and Bonsai, with a checker that grades your IFC file" width="100%"/></a></td>
+</tr>
+<tr>
 <td><a href="https://github.com/sabaazdn73/DIVG"><img src="assets/card-divg.svg" alt="DIVG" width="100%"/></a></td>
 <td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle" width="100%"/></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/sabaazdn73/expert-eval-harness"><img src="assets/card-harness.svg" alt="expert-eval-harness: expert tasks and answer keys, an equipped grader, pass@k and quality gates" width="100%"/></a></td>
 <td><a href="https://github.com/sabaazdn73/heygen-avatar-director-skill-for-claude"><img src="assets/card-heygen.svg" alt="HeyGen Avatar Director: a Claude Agent Skill that directs HeyGen avatars beat by beat" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude"><img src="assets/card-veo.svg" alt="Gemini Veo Studio: a Claude Agent Skill that makes videos with Google Veo 3.1" width="100%"/></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude"><img src="assets/card-veo.svg" alt="Gemini Veo Studio: a Claude Agent Skill that makes videos with Google Veo 3.1" width="100%"/></a></td>
-<td><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="100%"/></td>
+<td colspan="2" align="center"><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="50%"/></td>
 </tr>
 </table>
 
