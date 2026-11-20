@@ -12,12 +12,12 @@ Structural engineer with site experience on a cast-in-place reinforced concrete 
 
 I now work freelance on AI evaluation for structural engineering. I design expert review tasks with answer keys from realistic project documents, run them on Claude and Gemini models in my open-source evaluation harness, and research where models fail in ways that matter: a superseded code edition, a multi-part clause checked only halfway, or a number taken from a document without checking it.
 
-I have also photographed since 2017, with about two years of study, and I make brand imagery, AI images and short videos with AI tools (Gemini, ChatGPT, Claude, ComfyUI and Veo).
+I have also photographed since 2017, with about two years of study, and I make brand imagery and AI images with AI tools (Gemini, ChatGPT, Claude and ComfyUI).
 
 ## Experience
 
 ### Freelance Researcher, AI Evaluation for Structural Engineering
-*Remote, freelance · Oct 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
+*Remote, freelance · Aug 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
 
 - Built a harness that runs expert tasks on Claude and Gemini models, several trials each, and scores every answer item by item against a written expert key, with pass@k, pass^k, confidence intervals, and difficulty and quality gates.
 - Added grading by two models from different families, with agreement statistics and every disagreement sent to an expert; the grader can recompute numbers in a code sandbox, read the governing clause in a local library of code editions and flag possible key errors for a human.
@@ -35,7 +35,7 @@ I have also photographed since 2017, with about two years of study, and I make b
 
 - Reviewed and rated AI answers for accuracy, reasoning, instruction-following and usefulness, and wrote down why.
 
-### Civil Engineer (internship), Parvin mixed-use project
+### Graduate Civil Engineer, Parvin mixed-use project
 *Aghigh Naghsh-e-Jahan Investment Holding · Isfahan, Iran · May 2018 to Oct 2018*
 
 Commercial, office and multi-storey parking building in cast-in-place reinforced concrete.
@@ -47,12 +47,11 @@ Commercial, office and multi-storey parking building in cast-in-place reinforced
 ## Photography and AI imagery
 
 ### Photographer and AI image maker, personal practice
-*Photography 2017 to present · AI imagery 2026 · [portfolio](https://www.tnega.app/photography/) · [ComfyUI album](https://www.tnega.app/photography/#comfyui) · [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude)*
+*Photography 2017 to present · AI imagery 2026 · [portfolio](https://www.tnega.app/photography/) · [ComfyUI album](https://www.tnega.app/photography/#comfyui)*
 
 - Photography: about two years of study, first in the photography course at the University of Tehran, then on my own; landscape, architecture and interiors, still life, product and food, and light painting; 238 photographs in 16 photo albums.
 - AI images from my own photographs: ran ComfyUI on my own laptop and made 24 images, each starting from a blend of two of my photographs that share an idea, reworked image to image with the open DreamShaper 8 LCM model.
 - AI imagery: designed the brand, logo, images and page layouts for JaFendiLé, a cake and pastry business, and for Tnega, my own project, combining Gemini, ChatGPT and Claude; 19 are in the portfolio's Digital art album.
-- AI video: Gemini Veo Studio, an open-source Agent Skill that lets Claude make short videos with Google Veo 3.1 through the Gemini API; on GitHub and the Agensi skills marketplace.
 
 ## Research and publications
 
@@ -100,7 +99,7 @@ Commercial, office and multi-storey parking building in cast-in-place reinforced
 - **Codes:** ACI 318-19 reinforced concrete design and detailing; ASCE 7-16 and 7-22 loads; 2024 IBC with state amendments (Utah); checking which edition a jurisdiction has adopted; reading drawings against specifications.
 - **Construction:** quantity takeoff and cost estimating, rebar and concrete quantities, site supervision of foundations and reinforcement.
 - **AI evaluation:** expert task and answer-key design, rubric and key-based grading, LLM judges, pass@k; Claude API, tool use and MCP.
-- **Photography and AI imagery:** composition, natural light, long exposure, still life and product set-ups; images and logos made by combining Gemini, ChatGPT and Claude; image-to-image work in ComfyUI; video with Veo 3.1 through the Gemini API.
+- **Photography and AI imagery:** composition, natural light, long exposure, still life and product set-ups; images and logos made by combining Gemini, ChatGPT and Claude; image-to-image work in ComfyUI.
 - **Business and tools:** financial reporting, cost control, valuation and derivatives; Python, Excel, AutoCAD.
 - **Languages:** English (professional), Portuguese (basic), Persian (native).
 
