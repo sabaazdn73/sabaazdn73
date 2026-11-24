@@ -1,124 +1,129 @@
 # Saba Azadegan
 
-Structural engineer (MSc) · AI evaluation · Photography and AI imagery · MSc in Business
+Structural engineer (MSc) · MSc in Business, Católica Lisbon · AI evaluation for engineering
 
-Lisbon, Portugal · Open to relocation · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com) · Portfolio: [tnega.app/photography](https://www.tnega.app/photography/)
+Lisbon, Portugal · Open to relocation · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
-[linkedin.com/in/saba-azadegan-2974b622a](https://linkedin.com/in/saba-azadegan-2974b622a) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan) · [x.com/SabaAzadegan](https://x.com/SabaAzadegan)
+[linkedin.com/in/saba-azadegan-2974b622a](https://www.linkedin.com/in/saba-azadegan-2974b622a/) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan) · [x.com/SabaAzadegan](https://x.com/SabaAzadegan)
 
 ## Profile
 
-Structural engineer with site experience on a cast-in-place reinforced concrete project, where I did the full quantity takeoff and cost estimate, prepared the project's financial reports and supervised foundation and reinforcement work. My engineering studies covered structural design and structural dynamics, with ETABS, SAFE and Abaqus, and an MSc in Business from Católica Lisbon added finance and data analysis.
-
-I now work freelance on AI evaluation for structural engineering. I design expert review tasks with answer keys from realistic project documents, run them on Claude and Gemini models in my open-source evaluation harness, and research where models fail in ways that matter: a superseded code edition, a multi-part clause checked only halfway, or a number taken from a document without checking it.
-
-I have also photographed since 2017, with about two years of study, and I make brand imagery and AI images with AI tools (Gemini, ChatGPT, Claude and ComfyUI).
+Structural engineer who has worked with AI for about a year: first building web3 projects and, since August 2026, testing AI models on structural engineering tasks.
 
 ## Experience
 
 ### Freelance Researcher, AI Evaluation for Structural Engineering
-*Remote, freelance · Aug 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
+*Freelance, Lisbon, Portugal · Aug 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
 
-- Built a harness that runs expert tasks on Claude and Gemini models, several trials each, and scores every answer item by item against a written expert key, with pass@k, pass^k, confidence intervals, and difficulty and quality gates.
-- Added grading by two models from different families, with agreement statistics and every disagreement sent to an expert; the grader can recompute numbers in a code sandbox, read the governing clause in a local library of code editions and flag possible key errors for a human.
-- Designed structural review tasks on reinforced concrete projects (drawings, calculations, submittals, requests for information), each built around a provision that changed in a recent code edition or a condition stated only in the project documents. Six were entered in the micro1 Eval Hackathon (Nov 2026): none of 42 trials by four current Claude and Gemini models passed, and 13 of 42 passed with the cited standards available for look-up.
-- Wrote up the method, "Where the Human Belongs": the human leads where the truth is outside the model, such as the adopted code edition or the real site status.
+AI models are being tried for structural review without a clear measure of how often they get the code checks right. I wrote expert tasks and built an open-source harness to measure it: four current Claude and Gemini models passed 0 of 42 trials, and 13 of 42 with the cited standards available to look up.
+
+- **Tasks:** structural review of reinforced concrete projects (drawings, calculations, submittals, requests for information), each built around a provision that changed in a recent edition of ACI 318 or ASCE 7, or a condition stated only in the project documents. Six were entered in the micro1 Eval Hackathon (Nov 2026).
+- **Harness:** runs each task several times per model and scores every answer item by item against a written expert key, with pass@k, pass^k, confidence intervals, and difficulty and quality gates.
+- **Grading:** two graders from different model families agree on 96% of items, and every disagreement goes to an expert. The grader can recompute numbers in a code sandbox, read the governing clause in a library of code editions and flag likely key errors.
+- **Write-ups:** two sole-author conference abstracts under review (EG-ICE 2027, ISEC-2027); the article [“Where the Human Belongs”](https://medium.com/@sabaazadegan/where-the-human-belongs-ab775c2fa3f7); a [video walkthrough](https://www.youtube.com/watch?v=IWcEG7c-mQU).
 
 ### AI Trainer, Civil and Structural Engineering
 *DataAnnotation · Remote, freelance · Oct 2026 to Nov 2026*
 
-- Designed expert-level structural engineering tasks, with realistic drawing sets, specifications and answer keys, that expose where AI agents misapply reinforced concrete design rules.
-- Checked expected answers against the code text (mainly ACI 318-19 and ASCE 7-16 and 7-22), set fair tolerances for alternative methods, and documented why each AI answer was right or wrong.
+AI agents misapply reinforced concrete design rules in ways that simple tests miss. I designed 170+ hours of realistic tasks that expose those errors, from drawing sets and specifications, each with an answer key checked against the code text (ACI 318-19, ASCE 7-16 and 7-22), fair tolerances for alternative methods and a written reason why each AI answer was right or wrong.
 
-### Generalist Expert, AI output evaluation
+### Generalist Expert, Global Business
 *Mercor · Remote, freelance · Aug 2026*
 
-- Reviewed and rated AI answers for accuracy, reasoning, instruction-following and usefulness, and wrote down why.
+AI answers to business tasks can sound right and still be wrong. I rated them for accuracy, reasoning, instruction-following and usefulness, with a written reason for every rating.
 
-### Graduate Civil Engineer, Parvin mixed-use project
+### Site Civil Engineer (graduate trainee), Parvin mixed-use project
 *Aghigh Naghsh-e-Jahan Investment Holding · Isfahan, Iran · May 2018 to Oct 2018*
 
-Commercial, office and multi-storey parking building in cast-in-place reinforced concrete.
+The project needed reliable quantities and costs for a cast-in-place reinforced concrete building (residential, commercial, office and multi-storey parking). I did the full quantity takeoff from the AutoCAD drawings and the cost estimate in Excel, used for the project’s financial reports and progress billing.
 
-- Carried out the full quantity takeoff and cost estimate for the structure: concrete volumes and rebar quantities for foundations, columns, beams and slabs, taken from AutoCAD structural drawings and calculated in Excel.
-- Prepared the project's financial reports and supported the project manager with planning and coordination.
-- Supervised foundation works and rebar mesh installation on site; attended concrete pours and visited the ready-mix supplier's laboratory.
+- Supervised foundation works and rebar installation, attended concrete pours and supported the project manager with planning.
 
-## Photography and AI imagery
+## Mini dApps and mini apps
 
-### Photographer and AI image maker, personal practice
-*Photography 2017 to present · AI imagery 2026 · [portfolio](https://www.tnega.app/photography/) · [ComfyUI album](https://www.tnega.app/photography/#comfyui)*
+### Mini dApp: Tnega Finance, tokenised stock costs
+*2026 · [tnega.app/finance](https://www.tnega.app/finance)*
 
-- Photography: about two years of study, first in the photography course at the University of Tehran, then on my own; landscape, architecture and interiors, still life, product and food, and light painting; 238 photographs in 16 photo albums.
-- AI images from my own photographs: ran ComfyUI on my own laptop and made 24 images, each starting from a blend of two of my photographs that share an idea, reworked image to image with the open DreamShaper 8 LCM model.
-- AI imagery: designed the brand, logo, images and page layouts for JaFendiLé, a cake and pastry business, and for Tnega, my own project, combining Gemini, ChatGPT and Claude; 19 are in the portfolio's Digital art album.
+The advertised price of a tokenised stock is not what a buyer pays, and the gap differs by issuer and by chain. Tnega Finance prices a purchase of each issuer’s version on each chain; in October 2026 it covered 1,378 stocks and ETFs in 7,279 versions from five issuers on seven chains.
 
-## Research and publications
+- **MCP server with nine tools:** an AI assistant can query the data and prepare a buy or sell, but the user signs every transaction in their own wallet; Tnega never signs or holds funds.
 
-### Two conference abstracts on AI in structural engineering review
-*Sole author · submitted Nov 2026, under review*
+### Mini dApp: Cross-Border (F2F)
+*University of Zurich summer school final project, then ETHGlobal Lisbon 2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)*
 
-- EG-ICE 2027, Lund: "Where language models fail in structural engineering review: expert-designed tasks and the code-edition trap".
-- ISEC-2027, Pomona, California: "Can an AI-drafted review be signed? Language-model errors in reinforced concrete design review and a check library for engineers".
+Cross-border transfers are hard to audit. For the summer school’s final group project I led a team from South Africa, Pakistan, Mexico and Iran to design a system that records every compliance and routing decision on a public ledger, and presented its technical part on the Zurich and Stellenbosch campuses. I then extended it for ETHGlobal Lisbon 2026.
+
+### Mini dApp: TrustCycle
+*MasterZ and IOTA Web3 hackathon · [trustcycle.tech](https://trustcycle.tech)*
+
+Recommendation letters are easy to fake and hard to check. TrustCycle records academic recommendation letters on IOTA so that a reader can verify them; it ranked 22 of 66 at the hackathon.
+
+### Mini apps
+- **Hava** ([tnega.app/hava](https://www.tnega.app/hava/), [demo video](https://www.youtube.com/watch?v=C0T4-EIfYHc)): draw in the air with your hands through the webcam while you explain an idea.
+- **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free open-source structural BIM course with lessons and an in-browser IFC model checker.
+- **Review notebook** ([tnega.app/notebook](https://www.tnega.app/notebook/)): structural engineering fundamentals with worked examples and traps to test on AI models.
+
+## Research
+
+### Structural reliability of reclaimed steel
+*Sole author · self-study · Nov 2026 · [github.com/sabaazdn73/reclaimed-steel-reliability](https://github.com/sabaazdn73/reclaimed-steel-reliability)*
+
+Reclaimed steel has more uncertain properties than new steel. I wrote FORM in Python, checked it against importance sampling and Monte Carlo, and calibrated the partial factor that gives it the same reliability as modern S355.
 
 ### Financial Damage Detection Index
 *Sole author · Oct 2025 to Jan 2026*
 
-- Took the stiffness-based damage detection used in structural health monitoring and applied it to company finances, to catch financial stress before large price moves. Accepted at the IFABS 2026 London Conference (review score 7.4/10), with an IFABS Grant for Young Researchers; withdrawn before the conference.
+Financial stress often shows only after large price moves. I took the stiffness-based damage detection used in structural health monitoring and applied it to company finances, with time-series (DCC-GARCH) models of market data. Accepted at the IFABS 2026 London Conference (review score 7.4/10); withdrawn before the conference.
 
-### A Review of Structural Health Monitoring Methods and Tools
-*MSc seminar, Kharazmi University · 2019 to mid-2020*
+## Volunteering
 
-- Reviewed damage detection methods for structures, mainly modal methods based on changes in stiffness, frequencies and mode shapes; the MSc was completed with this seminar and two additional courses in place of a thesis.
+### Business and Digitalisation Consultant, JaFendiLé
+*Lisbon · 2026 · unpaid · [jafendile.vercel.app](https://jafendile.vercel.app)*
+
+I advised a home baker on pricing and on which cafés to approach, and built her website with AI-made brand images. The business now supplies about ten cafés under contract.
+
+### Market Research, dry-slope ski start-up
+*Tehran, Iran · Late 2024 to Apr 2025 · unpaid*
+
+For a friend’s planned indoor ski centre, I collected data on materials and suppliers and wrote the first market review.
+
+### Adviser to Iranian students
+*Ongoing · unpaid*
+
+I help Iranian applicants with their university and visa applications.
 
 ## Education
 
 ### MSc in Business
-*Católica Lisbon School of Business and Economics, Portugal · 2023 to Sep 2026 · Final average 14/20*
+*Católica Lisbon School of Business and Economics, Portugal · Sep 2023 to Oct 2026 · Final average 14/20 · taught in English*
 
-- Thesis (graded 17/20): identity verification without a single trusted authority, tested with a 5,000-round simulation in Python. Courses in business statistics, corporate finance and derivatives; led a team project valuing a convertible bond.
+- Thesis (17/20), “Digital Identity + Verification Graph”: identity checks usually depend on one trusted authority; I designed verification without one and tested it in a 5,000-round simulation in Python.
+- Financial Decision-Making 17/20, Managerial Economics 16/20; corporate finance, derivatives and business statistics (Stata).
 
 ### MSc in Civil Engineering, Structural Engineering
-*Kharazmi University, Iran · Sep 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95)*
+*Kharazmi University, Iran · Oct 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95)*
 
-- Coursework in structural dynamics and seismology; finite element modelling in Abaqus (18/20 in Finite Element Methods).
+- Structural dynamics and seismology; finite element modelling in Abaqus (Finite Element Methods 18/20).
+- Seminar (18/20) on structural health monitoring: damage detection from changes in stiffness, frequencies and mode shapes; with two extra courses, it replaced a thesis.
 
 ### BSc in Civil Engineering
 *Azad University, West Tehran Branch · Sep 2012 to Dec 2016 · GPA 15.84/20*
 
-- About two years of structural design projects in ETABS and SAFE; Spaghetti Structures competition (Shahid Beheshti University, 2015).
+- About two years of structural design projects (ETABS, SAFE); Spaghetti Structures competition (Shahid Beheshti University, 2015).
 
-### Programmes and certifications
-
-- Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (Oct 2026); Deep Dive into Blockchain, University of Zurich International Summer School (Jul 2026).
-- Hedera Business Foundation, Hedera Certified Foundation and Hashgraph Developer Course (2026); Introduction to Agents, Mercor (2026).
-
-## Skills
-
-- **Analysis and design:** ETABS, SAFE, Abaqus (finite element analysis), structural dynamics and modal analysis.
-- **Codes:** ACI 318-19 reinforced concrete design and detailing; ASCE 7-16 and 7-22 loads; 2024 IBC with state amendments (Utah); checking which edition a jurisdiction has adopted; reading drawings against specifications.
-- **Construction:** quantity takeoff and cost estimating, rebar and concrete quantities, site supervision of foundations and reinforcement.
-- **AI evaluation:** expert task and answer-key design, rubric and key-based grading, LLM judges, pass@k; Claude API, tool use and MCP.
-- **Photography and AI imagery:** composition, natural light, long exposure, still life and product set-ups; images and logos made by combining Gemini, ChatGPT and Claude; image-to-image work in ComfyUI.
-- **Business and tools:** financial reporting, cost control, valuation and derivatives; Python, Excel, AutoCAD.
-- **Languages:** English (professional), Portuguese (basic), Persian (native).
+### Courses and programmes
+- Google Cloud Professional Agentic Architect (in progress since Nov 2026; two Stage 1 courses and an ADK challenge lab done); Anthropic Claude Academy: Introduction to Evals and AI Fluency (in progress); Mercor: Introduction to Agents.
+- Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (Oct 2026); Deep Dive into Blockchain, University of Zurich International Summer School (Jul 2026); three Hedera courses (2026).
 
 ## Awards
 
-- Partner prize, ETHGlobal Lisbon 2026 (Autonomous On-Chain Automation Platform), for F2F Cross-Border.
-- IFABS Grant for Young Researchers (GBP 450 fee waiver), IFABS 2026 London Conference.
-- Industry Scholarship: full fee waiver (CHF 1,000) for the online programme, University of Zurich International Summer School, 2026.
+- Partner prize (1,000 USDC), ETHGlobal Lisbon 2026, for Cross-Border (F2F).
+- Industry Scholarship, University of Zurich International Summer School 2026 (full fee waiver, CHF 1,000).
+- IFABS Grant for Young Researchers, IFABS 2026 London Conference (GBP 450 fee waiver).
 
-## Projects
+## Skills
 
-### Tnega: AI review of structural drawings, and Tnega Finance
-*Founder · 2026 · [tnega.app](https://www.tnega.app) · [tnega.app/finance](https://www.tnega.app/finance)*
-
-- tnega.app: an AI agent, in development, that will check reinforced concrete drawings against the adopted editions of ACI 318 and ASCE 7 and send every life-safety finding to an engineer; RC Code Town, a 3D check library of where AI tends to go wrong; and BIM practice, a free open-source structural BIM course with an in-browser IFC checker.
-- Tnega Finance: the full cost of buying a tokenised stock or ETF on each chain, with an MCP server for AI assistants.
-
-### F2F Cross-Border and TrustCycle
-*2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app) · [trustcycle.tech](https://www.trustcycle.tech)*
-
-- F2F: led the design of a cross-border transfer system that records every compliance and routing decision on a public ledger.
-- TrustCycle: decentralised academic recommendation letters; ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.
+- **Structural:** ETABS, SAFE, Abaqus, structural dynamics, reliability (FORM, Monte Carlo); ACI 318-19, ASCE 7-16 and 7-22, 2024 IBC and state amendments, which edition a jurisdiction has adopted; Eurocodes (self-study).
+- **Construction and business:** quantity takeoff, cost estimating, site supervision, financial reporting and progress billing; valuation, pricing, market research; AutoCAD.
+- **AI and data:** Python, SQL (basics), Stata, Excel; Claude API, tool use and MCP; task and answer-key design, LLM judges, pass@k.
+- **Languages:** English (professional), Portuguese (basic), Persian (native). **Photography:** since 2017, mainly architectural ([portfolio](https://www.tnega.app/photography/)).

@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Saba Azadegan, structural engineer and founder of Tnega, with Fendi the cat" width="100%"/>
+<img src="assets/hero.svg" alt="Saba Azadegan, structural engineer, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [Engineering × AI](#engineering) · [Structural Review Eval](#structural-review-eval) · [The talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ) · [Building now](#building) · [How it fits](#architecture) · [Where Tnega was born](#born) · [Projects](#projects) · [Photography](#photography) · [Toolkit](#toolkit) · [Learning](#learning) · [Say hi](#contact) ✦
+✦ [About](#about) · [AI evaluation](#ai-evaluation) · [Mini dApps](#mini-dapps) · [Mini apps](#mini-apps) · [Research](#research) · [Claude skills](#claude-skills) · [Photography](#photography) · [Toolkit](#toolkit) · [Courses](#courses) · [Contact](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -13,64 +13,24 @@
 
 <p align="center"><img src="assets/saba.svg" alt="Saba" width="150"/></p>
 
-I'm a **structural engineer** (MSc, Kharazmi University) who now works where engineering meets AI. I design expert-level structural engineering tasks that show where AI models go wrong when they apply **ACI 318** and **ASCE 7**, often in a different edition from the one the project's jurisdiction adopted, and I check every expected answer by hand against the code. I also build the tools that measure it: an open-source **[evaluation harness](https://github.com/sabaazdn73/expert-eval-harness)** and a private library of the adopted code editions.
+I'm a structural engineer (MSc, Kharazmi University) with an MSc in Business from Católica Lisbon. In 2018 I worked on site on a reinforced concrete building: the quantity takeoff, the cost estimate and supervision of foundation and rebar work.
 
-Before that I worked on a cast-in-place reinforced concrete project, doing the full **quantity takeoff and cost estimate** and supervising foundation and rebar work on site. I also hold an **MSc in Business from Católica Lisbon**.
-
-Everything I build follows one idea: **results you can verify**. Today that's **[Tnega](https://www.tnega.app)**, an AI reviewer for structural drawings that I'm building, and Fendi, the cat in the banner, is its mascot. Away from engineering I am a photographer: see [Photography](#photography).
-
-**At a glance**
-
-- **Now (since Aug 2026):** freelance AI evaluation for structural engineering, first rating AI answers at Mercor, then designing expert tasks at DataAnnotation, now my own research and open-source tools. About 320 hours of expert task design.
-- **Research:** two sole-author conference abstracts under review, at EG-ICE 2027 (Lund) and ISEC-2027 (Pomona, California), on where language models fail in structural engineering review. My paper FDDI was accepted at IFABS 2026 (London).
-- **On site (2018):** six months on the Parvin project in Isfahan, a cast-in-place reinforced concrete commercial, office and parking building: the full quantity takeoff and cost estimate, the project's financial reports, and supervision of foundation and rebar work.
-- **MSc Structural Engineering** (Kharazmi University, 2021): structural dynamics, finite element modelling in Abaqus, bridge damage detection and a seminar on structural health monitoring.
-- **BSc Civil Engineering** (2016): about two years of reinforced concrete building design in ETABS and SAFE.
-- **MSc in Business** (Católica Lisbon, 2026, taught in English): finance and data analysis; thesis graded 17/20.
-- **Open source:** [expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness), the [Open Structural BIM Course](https://github.com/sabaazdn73/open-structural-bim-course) and [Tnega](https://github.com/sabaazdn73/tnega).
+I have worked with AI for about a year: first on web3 projects, and since August 2026, as a freelancer in Portugal, on testing AI models on structural engineering tasks. My CV is in [cv/](cv/).
 
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
-<a id="engineering"></a>
-<img src="assets/h-engineering.svg" alt="Engineering × AI" width="100%"/>
-
-<table>
-<tr>
-<td><a href="https://www.linkedin.com/in/saba-azadegan-2974b622a"><img src="assets/card-aieval.svg" alt="AI evaluation: expert structural tasks that show where AI misapplies the adopted ACI 318 and ASCE 7" width="100%"/></a></td>
-<td><a href="https://www.tnega.app/town/"><img src="assets/card-codetown.svg" alt="RC Code Town: six concrete structures in 3D, the governing provisions and where AI tends to go wrong" width="100%"/></a></td>
-</tr>
-<tr>
-<td><a href="cv/"><img src="assets/card-site.svg" alt="On site and in design: rebar takeoff and site supervision on a concrete mixed-use project; ETABS and SAFE" width="100%"/></a></td>
-<td><img src="assets/card-fddi.svg" alt="FDDI: structural damage detection applied to company finances, accepted at IFABS 2026" width="100%"/></td>
-</tr>
-</table>
-
-<a href="https://www.tnega.app/town/"><img src="assets/codetown.svg" alt="RC Code Town on tnega.app: six concrete structures at true scale, the checks that matter and where AI goes wrong" width="100%"/></a>
-
-<a href="https://www.youtube.com/watch?v=JYRgS2VCLQQ"><img src="https://img.youtube.com/vi/JYRgS2VCLQQ/maxresdefault.jpg" alt="Watch on YouTube: How AI is trained on structural engineering, a talk by Saba Azadegan" width="100%"/></a>
-
-▶️ **[Watch the talk on YouTube](https://www.youtube.com/watch?v=JYRgS2VCLQQ)**: how a realistic engineering task is designed, how AI models attempt it and are graded against an answer key, and why a structural engineer stays in control of the loop.
-
-</div>
-
-General AI models read drawings well. Where they go wrong is **applying the code**: an outdated code edition, a multi-part clause checked for only its first condition, a site input assumed instead of asked for. The **[RC Code Town](https://www.tnega.app/town/)** maps those failure points member by member, from footings and columns to transfer girders and tied-back shoring, using general engineering content from the public codes.
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-<a id="structural-review-eval"></a>
+<a id="ai-evaluation"></a>
 <img src="assets/h-hackathon.svg" alt="Structural Review Eval" width="100%"/>
 
-<a href="https://www.youtube.com/watch?v=IWcEG7c-mQU"><img src="assets/hackathon-video.jpg" alt="Watch on YouTube: Structural Review Eval, where frontier models sign off on unsafe engineering" width="100%"/></a>
+<a href="https://www.youtube.com/watch?v=IWcEG7c-mQU"><img src="assets/hackathon-video.jpg" alt="Watch on YouTube: Structural Review Eval" width="100%"/></a>
 
 ▶️ **[Watch the walkthrough on YouTube](https://www.youtube.com/watch?v=IWcEG7c-mQU)** (under 5 minutes)
 
 </div>
 
-**Structural Review Eval** (November 2026): six review packages for one parking structure in Salt Lake City, each with drawings, calculations, submittals and a junior engineer's draft review that looks finished and is wrong. Four frontier models (Claude Haiku 5.5, Claude Sonnet 5.5, Gemini 3.8 Flash, Gemini 4 Argon) ran 42 trials, scored item by item against my expert answer keys by two graders from different model families (96% item agreement, kappa 0.91).
+**Structural Review Eval** (November 2026, entered in the micro1 Eval Hackathon): six review packages for one parking structure in Salt Lake City, each with drawings, calculations, submittals and a junior engineer's draft review that looks finished and is wrong. Four models (Claude Haiku 5.5, Claude Sonnet 5.5, Gemini 3.8 Flash, Gemini 4 Argon) ran 42 trials, scored item by item against my answer keys by two graders from different model families (96% item agreement, kappa 0.91).
 
 - **0 of 42 passed.** The models did the arithmetic (100% of the computation items) but used the neighbouring clause, an older code edition, or skipped checks the draft never raised.
 - **The sandbox changed a score.** In Vertex AI's own code tool Gemini 4 Argon wrote no answer on the hardest task; in one local sandbox shared by all models it scored 8 of 14.
@@ -80,51 +40,18 @@ General AI models read drawings well. Where they go wrong is **applying the code
 
 <div align="center">
 
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-<a id="building"></a>
-<img src="assets/h-building.svg" alt="Building now" width="100%"/>
+<img src="assets/architecture.svg" alt="How the evaluation works: an expert designs the task, models attempt it, an equipped grader checks the answer, a report applies difficulty and quality gates, and a human signs off. A private library of adopted code editions serves the models and the grader." width="100%"/>
 
 </div>
 
-**[Tnega](https://www.tnega.app)** is an AI reviewer for structural drawings, **in development**. It will read the drawing set, run the checks for each member, do the calculations in deterministic code rather than in the model, repeat every check independently, and send every life-safety finding to an engineer first. The engineer of record signs, not the agent.
+The tools behind it:
 
-The earlier product, **[Tnega Finance](https://www.tnega.app/finance)**, still runs: it shows what every tokenized stock and ETF costs to buy on every chain, and orders are **signed in your own wallet**, so Tnega never holds keys or funds.
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-<a id="architecture"></a>
-<img src="assets/h-architecture.svg" alt="How it fits together" width="100%"/>
-
-<img src="assets/architecture.svg" alt="How my work fits together: an expert designs the task, Claude models attempt it, an equipped grader checks the answer, a report applies difficulty and quality gates, and a human signs off. A private library of adopted code editions serves the models, the grader and Tnega." width="100%"/>
-
-</div>
-
-**What I'm working on now:**
-
-- **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)** runs expert tasks on Claude and Gemini models, in one local sandbox shared by all of them, and grades them against a full expert answer key, item by item. The grader is equipped: it recomputes the numbers in a code sandbox, checks the figures against the input files, reads the governing clause in the code library, and flags possible problems in the key itself for a human to review. It reports pass@k and pass^k and gates tasks on difficulty and releases on quality.
-- **[A Review Notebook for Civil Engineers to Evaluate Frontier Models](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/review-notebook/README.md)** (November 2026): structural fundamentals module by module, each section with a worked example and figure, a practice problem, a trap to test on AI models and the check a review agent should run. Three modules are written, load path and static equilibrium, loads and load combinations (ASCE 7-22 and Eurocodes), and structural analysis (ACI 318-19 and Eurocodes), with eight key-scored tasks each in the harness.
-- **A task pipeline dashboard** for building tasks with that method: the nine stages and three human gates, the signed design-basis sheet, file checks, the decision log and model runs. A read-only copy shows progress and results without the prompts, keys or traps: [tnega.app/eval](https://www.tnega.app/eval/).
-- **A case study:** does giving a smaller model the right code library (the edition the jurisdiction actually adopted) fix the errors it makes on structural tasks? The same tasks run with and without the library, and the report lists what the model looked up. First result, from the [Structural Review Eval run](#structural-review-eval): passes rose from 0 to 13 of 42, mostly because the governing clause was found.
-- **The method behind it**, [Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md): the human leads where the truth is outside the model (jurisdiction, adopted edition, real site status) or where an AI error would run in the same direction as the test. AI drafts, builds files and repeats calculations.
-- **A code library as an MCP server**, private because the standards are licensed: full-text search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table that answers which edition a permit actually needs.
-- **[Open Structural BIM Course](https://github.com/sabaazdn73/open-structural-bim-course)**: a free course in which you model one small reinforced concrete building, TB-01, from levels and grids to the issued model, in 32 exercises with steps for two free programs, FreeCAD and Bonsai (Blender). A checker I wrote in Python reads your IFC file and tells you what is right and what is not; it also runs in the browser at [tnega.app/bim](https://www.tnega.app/bim/), so your file is never uploaded.
-- **[Hava](https://www.tnega.app/hava/)** (هوا, Persian for *air*): a web app that follows your hands through the webcam, so you can explain an idea by drawing it in the air. Shapes snap clean, an AI guesses the sketch, and the same hands play air instruments or build a bridge for a truck to cross. It runs in the browser and the camera picture is never uploaded. ▶️ **[Watch the 2-minute demo](https://www.youtube.com/watch?v=C0T4-EIfYHc)**
-
-<div align="center">
-
-<img src="assets/divider.svg" alt="" width="100%"/>
-
-<a id="born"></a>
-<img src="assets/h-born.svg" alt="Where Tnega was born" width="100%"/>
-
-<img src="assets/born.svg" alt="Tnega was born in the UZH Deep Dive Into Blockchain summer school in Zurich, grew out of the F2F project, and became Tnega" width="100%"/>
-
-</div>
-
-Tnega did not start from nothing. It began at the **University of Zurich's Deep Dive Into Blockchain** summer school, as **F2F Cross-Border & OnChain Oversight**, became Tnega Finance, and is now turning to the work I know best: structural engineering.
+- **[expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)**: runs expert tasks on Claude and Gemini models in one local sandbox and grades each answer item by item against an expert key. The grader recomputes numbers in a code sandbox, checks figures against the input files and reads the governing clause in the code library. It reports pass@k and pass^k and gates tasks on difficulty and quality.
+- **A task pipeline dashboard**: the stages and human gates for building a task. A read-only copy, without prompts, keys or traps: [tnega.app/eval](https://www.tnega.app/eval/).
+- **A code library as an MCP server**, private because the standards are licensed: search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table.
+- **[Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md)**: which steps a person must check, such as the adopted code edition or the real site status, and which can go to AI.
+- **[RC Code Town](https://www.tnega.app/town/)**: six concrete structures in 3D, the governing provisions and where AI tends to go wrong. It sits on [tnega.app](https://www.tnega.app), where I am also building an AI reviewer for structural drawings; it does not review drawings yet.
+- **[A talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ)** on how a task like these is designed, attempted by a model and graded.
 
 <div align="center">
 
@@ -133,25 +60,66 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 <a id="projects"></a>
 <img src="assets/h-projects.svg" alt="Projects" width="100%"/>
 
+<a id="mini-dapps"></a>
+
+### Mini dApps
+
 <table>
 <tr>
-<td><a href="https://github.com/sabaazdn73/tnega"><img src="assets/card-tnega.svg" alt="Tnega: an AI reviewer for structural drawings, in development, plus Tnega Finance" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-f2f.svg" alt="F2F Cross-Border" width="100%"/></a></td>
+<td><a href="https://www.tnega.app/finance"><img src="assets/card-tnega.svg" alt="Tnega Finance: what each tokenized stock really costs to buy, per issuer and chain; MCP server with nine tools" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-f2f.svg" alt="Cross-Border (F2F): a University of Zurich summer school team project I led, then extended; partner prize at ETHGlobal Lisbon 2026" width="100%"/></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/sabaazdn73/expert-eval-harness"><img src="assets/card-harness.svg" alt="expert-eval-harness: expert tasks and answer keys, an equipped grader, pass@k and quality gates" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/open-structural-bim-course"><img src="assets/card-bim.svg" alt="Open Structural BIM Course: 32 exercises on one reinforced concrete building in FreeCAD and Bonsai, with a checker that grades your IFC file" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle: recommendation letters on IOTA" width="100%"/></a></td>
+<td><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="100%"/></td>
+</tr>
+</table>
+
+<a id="mini-apps"></a>
+
+### Mini apps
+
+<table>
+<tr>
+<td><a href="https://www.tnega.app/hava/"><img src="assets/card-hava.svg" alt="Hava: draw in the air with your hands through the webcam" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/open-structural-bim-course"><img src="assets/card-bim.svg" alt="Structural BIM course: 32 exercises on one reinforced concrete building in FreeCAD and Bonsai, with a checker that grades your IFC file" width="100%"/></a></td>
 </tr>
 <tr>
-<td><a href="https://github.com/sabaazdn73/DIVG"><img src="assets/card-divg.svg" alt="DIVG" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle" width="100%"/></a></td>
+<td colspan="2" align="center"><a href="https://www.tnega.app/notebook/"><img src="assets/card-notebook.svg" alt="Review notebook: structural engineering fundamentals with worked examples and traps to test on AI" width="50%"/></a></td>
 </tr>
+</table>
+
+</div>
+
+Hava runs in the browser and the camera picture is never uploaded ([2-minute demo](https://www.youtube.com/watch?v=C0T4-EIfYHc)). The BIM course checker also runs in the browser at [tnega.app/bim](https://www.tnega.app/bim/).
+
+<div align="center">
+
+<a id="research"></a>
+
+### Research
+
+<table>
+<tr>
+<td><img src="assets/card-fddi.svg" alt="FDDI: structural damage detection applied to company finances, accepted at IFABS 2026" width="100%"/></td>
+<td><a href="https://github.com/sabaazdn73/DIVG"><img src="assets/card-divg.svg" alt="DIVG: Digital Identity + Verification Graph, my MSc thesis" width="100%"/></a></td>
+</tr>
+</table>
+
+</div>
+
+Also: [structural reliability of reclaimed steel](https://github.com/sabaazdn73/reclaimed-steel-reliability), FORM in Python checked against importance sampling and Monte Carlo, and two sole-author conference abstracts under review (EG-ICE 2027, ISEC-2027) on where language models fail in structural review.
+
+<div align="center">
+
+<a id="claude-skills"></a>
+
+### Claude skills
+
+<table>
 <tr>
 <td><a href="https://github.com/sabaazdn73/heygen-avatar-director-skill-for-claude"><img src="assets/card-heygen.svg" alt="HeyGen Avatar Director: a Claude Agent Skill that directs HeyGen avatars beat by beat" width="100%"/></a></td>
 <td><a href="https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude"><img src="assets/card-veo.svg" alt="Gemini Veo Studio: a Claude Agent Skill that makes videos with Google Veo 3.1" width="100%"/></a></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="50%"/></td>
 </tr>
 </table>
 
@@ -164,7 +132,7 @@ Tnega did not start from nothing. It began at the **University of Zurich's Deep 
 
 </div>
 
-I studied photography for about two years, first in the photography course at the **University of Tehran** and then on my own, and I have photographed since 2017: landscape, architecture and interiors, still life, product and food, and light painting. **238 photographs in 16 albums**, taken on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my **[portfolio on tnega.app](https://www.tnega.app/photography/)**.
+I have photographed since 2017, after about two years of study that started with the photography course at the University of Tehran: landscape, architecture and interiors, still life, product and food, and light painting. 238 photographs in 16 albums, on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my [portfolio](https://www.tnega.app/photography/).
 
 <div align="center">
 
@@ -172,9 +140,7 @@ I studied photography for about two years, first in the photography course at th
 
 </div>
 
-**New: AI images made from my own photographs.** I ran **ComfyUI**, the open-source image tool, on my own laptop and made 24 images. Each one starts from a blend of two of my photographs that share an idea (Damavand under a light painting, the Sheikh Lotfollah dome beside the Tagus, the bridges of Lisbon and Tehran) and is reworked image to image with the open DreamShaper 8 LCM model. **[See the album](https://www.tnega.app/photography/#comfyui)**.
-
-I also design brand images and logos with Gemini, ChatGPT and Claude (19 works in the [Digital art album](https://www.tnega.app/photography/#digital)) and make short videos with Veo through my own [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude) skill.
+I also made 24 images with ComfyUI on my laptop, each from a blend of two of my photographs ([album](https://www.tnega.app/photography/#comfyui)), and brand images and logos with Gemini, ChatGPT and Claude ([Digital art album](https://www.tnega.app/photography/#digital)).
 
 <div align="center">
 
@@ -185,34 +151,41 @@ I also design brand images and logos with Gemini, ChatGPT and Claude (19 works i
 
 <img src="assets/stack-eng.svg" alt="ACI 318-19, ASCE 7, IBC, ETABS, SAFE, Abaqus, AutoCAD, Python, Excel, quantity takeoff, structural dynamics" width="100%"/>
 
-<a id="stack"></a>
 <img src="assets/h-stack.svg" alt="Tech stack and chains" width="100%"/>
 
 <img src="assets/stack.svg" alt="Solidity, Move, Rust, Anchor, TypeScript, Python, React, MCP, LiteSVM, Hedera, SUI, IOTA, Solana, BNB, Arbitrum" width="100%"/>
 
+</div>
+
+The languages and chains used in my web3 projects. I build with Claude Code; my own programming is basic.
+
+<div align="center">
+
 <img src="assets/divider.svg" alt="" width="100%"/>
 
-<a id="learning"></a>
-<img src="assets/h-learning.svg" alt="Learning" width="100%"/>
+<a id="courses"></a>
+<img src="assets/h-learning.svg" alt="Courses" width="100%"/>
 
 </div>
 
-- ✦ **Solana Fall School**: PDAs, CPI, LiteSVM and the Anchor constraint system
-- ✦ **Deep Dive Into Blockchain**, University of Zurich, 2026
-- ✦ **Google for Startups Immersion EMEA**, powered by Antler
+- Google Cloud Professional Agentic Architect, in progress since November 2026
+- Anthropic Claude Academy: Introduction to Evals and AI Fluency, in progress
+- Deep Dive into Blockchain, University of Zurich International Summer School, 2026
+- Solana Fall School, 2026
+- Google for Startups Immersion EMEA, powered by Antler, 2026
 
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
 <a id="contact"></a>
-<img src="assets/h-contact.svg" alt="Say hi" width="100%"/>
+<img src="assets/h-contact.svg" alt="Contact" width="100%"/>
 
 <a href="https://www.tnega.app"><img src="assets/btn-site.svg" alt="tnega.app" height="58"/></a>
 <a href="https://www.linkedin.com/in/saba-azadegan-2974b622a"><img src="assets/btn-linkedin.svg" alt="LinkedIn" height="58"/></a>
 <a href="https://x.com/SabaAzadegan"><img src="assets/btn-x.svg" alt="X" height="58"/></a>
 <a href="https://medium.com/@sabaazadegan"><img src="assets/btn-medium.svg" alt="Medium" height="58"/></a>
 
-<img src="assets/footer.svg" alt="Thanks for stopping by. Made with love in Lisbon." width="100%"/>
+<img src="assets/footer.svg" alt="Thanks for stopping by." width="100%"/>
 
 </div>

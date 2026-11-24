@@ -24,7 +24,7 @@ page = f"""<!doctype html>
   body {{ font: 15px/1.5 Georgia, "Times New Roman", serif; color: var(--ink); background:#fff;
          max-width: 780px; margin: 0 auto; padding: 32px 20px 60px; }}
   h1 {{ font-size: 2rem; margin: 0 0 4px; text-align: center; letter-spacing: .02em; }}
-  h1 + p, h1 + p + p {{ text-align: center; margin: 2px 0; color: var(--muted); font-size: .92em; }}
+  h1 + p, h1 + p + p, h1 + p + p + p {{ text-align: center; margin: 2px 0; color: var(--muted); font-size: .92em; }}
   h2 {{ font-size: 1.05rem; text-transform: uppercase; letter-spacing: .06em; border-bottom: 1px solid var(--ink);
        padding-bottom: 3px; margin: 26px 0 10px; }}
   h3 {{ font-size: 1rem; margin: 14px 0 0; }}

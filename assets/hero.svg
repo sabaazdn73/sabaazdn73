@@ -95,9 +95,9 @@ text{font-family:'Hanken Grotesk','Avenir Next','Segoe UI',Helvetica,Arial,sans-
 <g transform="translate(1101 82)"><g class="pop">
 <path d="M0,0 h92 a22,22 0 0 1 22,22 v18 a22,22 0 0 1 -22,22 h-52 l-20,20 v-20 h-20 a22,22 0 0 1 -22,-22 v-18 a22,22 0 0 1 22,-22z" transform="translate(-6 0)" fill="#fff"/>
 <text x="46" y="42" font-size="26" font-weight="800" fill="#E8607A" text-anchor="middle">hi! ♡</text></g></g>
-<text x="70" y="108" font-size="17" font-weight="700" letter-spacing="3.5" fill="#FFB3D1">STRUCTURAL ENGINEER · AI × CIVIL · FOUNDER</text>
+<text x="70" y="108" font-size="17" font-weight="700" letter-spacing="3.5" fill="#FFB3D1">STRUCTURAL ENGINEER · AI EVALUATION</text>
 <text x="66" y="206" font-size="96" font-weight="900" fill="url(#name)">Saba</text>
 <text x="66" y="290" font-size="80" font-weight="900" fill="url(#name)">Azadegan</text>
-<g clip-path="url(#typed)"><text x="70" y="345" font-size="30" font-weight="500" fill="#ffffff">engineering you can verify ✦ made in Lisbon</text></g>
+<g clip-path="url(#typed)"><text x="70" y="345" font-size="30" font-weight="500" fill="#ffffff">Lisbon, Portugal</text></g>
 <g transform="translate(74 402)"><circle r="7" fill="#59E184"><animate attributeName="opacity" values="1;.3;1" dur="2s" repeatCount="indefinite"/></circle><text x="20" y="7" font-size="21" font-weight="800" fill="#fff">tnega.app</text></g>
 </svg>
