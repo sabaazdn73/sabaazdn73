@@ -1,12 +1,12 @@
 # Saba Azadegan
 
-Lisbon, Portugal · Open to relocation · [+351 911 561 208](tel:+351911561208) · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
+Lisbon, Portugal · Open to relocation · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 [linkedin.com/in/saba-azadegan-2974b622a](https://www.linkedin.com/in/saba-azadegan-2974b622a/) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan) · [x.com/SabaAzadegan](https://x.com/SabaAzadegan)
 
 ## Profile
 
-Structural engineer who has worked with AI for about a year: first building web3 projects and, since August 2026, testing AI models on structural engineering tasks.
+I am a structural engineer. I studied civil and structural engineering, worked on a building site, and later did a master’s in business. I have worked with AI for about a year: first on small web3 projects, and since August 2026 on designing structural engineering tasks and testing how AI models handle them. I am looking for a role where I can use engineering and AI together and keep learning from experienced people.
 
 ## Experience
 
