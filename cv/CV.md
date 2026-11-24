@@ -1,8 +1,6 @@
 # Saba Azadegan
 
-Structural engineer (MSc) · MSc in Business, Católica Lisbon · AI evaluation for engineering
-
-Lisbon, Portugal · Open to relocation · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
+Lisbon, Portugal · Open to relocation · [+351 911 561 208](tel:+351911561208) · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 [linkedin.com/in/saba-azadegan-2974b622a](https://www.linkedin.com/in/saba-azadegan-2974b622a/) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan) · [x.com/SabaAzadegan](https://x.com/SabaAzadegan)
 
@@ -13,11 +11,11 @@ Structural engineer who has worked with AI for about a year: first building web3
 ## Experience
 
 ### Freelance Researcher, AI Evaluation for Structural Engineering
-*Freelance, Lisbon, Portugal · Aug 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
+*Aug 2026 to present · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness)*
 
 AI models are being tried for structural review without a clear measure of how often they get the code checks right. I wrote expert tasks and built an open-source harness to measure it: four current Claude and Gemini models passed 0 of 42 trials, and 13 of 42 with the cited standards available to look up.
 
-- **Tasks:** structural review of reinforced concrete projects (drawings, calculations, submittals, requests for information), each built around a provision that changed in a recent edition of ACI 318 or ASCE 7, or a condition stated only in the project documents. Six were entered in the micro1 Eval Hackathon (Nov 2026).
+- **Tasks:** structural review of reinforced concrete projects (drawings, calculations, submittals, requests for information), each built around a provision that changed in a recent code edition, or a condition stated only in the project documents. Six were entered in the micro1 Eval Hackathon (Nov 2026).
 - **Harness:** runs each task several times per model and scores every answer item by item against a written expert key, with pass@k, pass^k, confidence intervals, and difficulty and quality gates.
 - **Grading:** two graders from different model families agree on 96% of items, and every disagreement goes to an expert. The grader can recompute numbers in a code sandbox, read the governing clause in a library of code editions and flag likely key errors.
 - **Write-ups:** two sole-author conference abstracts under review (EG-ICE 2027, ISEC-2027); the article [“Where the Human Belongs”](https://medium.com/@sabaazadegan/where-the-human-belongs-ab775c2fa3f7); a [video walkthrough](https://www.youtube.com/watch?v=IWcEG7c-mQU).
@@ -25,7 +23,7 @@ AI models are being tried for structural review without a clear measure of how o
 ### AI Trainer, Civil and Structural Engineering
 *DataAnnotation · Remote, freelance · Oct 2026 to Nov 2026*
 
-AI agents misapply reinforced concrete design rules in ways that simple tests miss. I designed 170+ hours of realistic tasks that expose those errors, from drawing sets and specifications, each with an answer key checked against the code text (ACI 318-19, ASCE 7-16 and 7-22), fair tolerances for alternative methods and a written reason why each AI answer was right or wrong.
+AI agents misapply reinforced concrete design rules in ways that simple tests miss. I designed 170+ hours of realistic tasks that expose those errors, from drawing sets and specifications, each with an answer key checked against the code text, fair tolerances for alternative methods and a written reason why each AI answer was right or wrong.
 
 ### Generalist Expert, Global Business
 *Mercor · Remote, freelance · Aug 2026*
@@ -39,26 +37,27 @@ The project needed reliable quantities and costs for a cast-in-place reinforced 
 
 - Supervised foundation works and rebar installation, attended concrete pours and supported the project manager with planning.
 
-## Mini dApps and mini apps
+## Mini dApps
 
-### Mini dApp: Tnega Finance, tokenised stock costs
+### Tnega Finance
 *2026 · [tnega.app/finance](https://www.tnega.app/finance)*
 
 The advertised price of a tokenised stock is not what a buyer pays, and the gap differs by issuer and by chain. Tnega Finance prices a purchase of each issuer’s version on each chain; in October 2026 it covered 1,378 stocks and ETFs in 7,279 versions from five issuers on seven chains.
 
 - **MCP server with nine tools:** an AI assistant can query the data and prepare a buy or sell, but the user signs every transaction in their own wallet; Tnega never signs or holds funds.
 
-### Mini dApp: Cross-Border (F2F)
-*University of Zurich summer school final project, then ETHGlobal Lisbon 2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)*
+### Cross-Border (F2F)
+*2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)*
 
-Cross-border transfers are hard to audit. For the summer school’s final group project I led a team from South Africa, Pakistan, Mexico and Iran to design a system that records every compliance and routing decision on a public ledger, and presented its technical part on the Zurich and Stellenbosch campuses. I then extended it for ETHGlobal Lisbon 2026.
+Cross-border transfers are hard to audit. For the summer school’s final group project I led a team from South Africa, Pakistan, Mexico and Iran to design a system that records every compliance and routing decision on a public ledger, and presented its technical part on the Zurich and Stellenbosch campuses. I then extended it for a hackathon.
 
-### Mini dApp: TrustCycle
+### TrustCycle
 *MasterZ and IOTA Web3 hackathon · [trustcycle.tech](https://trustcycle.tech)*
 
-Recommendation letters are easy to fake and hard to check. TrustCycle records academic recommendation letters on IOTA so that a reader can verify them; it ranked 22 of 66 at the hackathon.
+Recommendation letters are easy to fake and hard to check. TrustCycle stores academic ones on IOTA so that a reader can verify them; it ranked 22 of 66 at the hackathon.
 
-### Mini apps
+## Mini apps
+
 - **Hava** ([tnega.app/hava](https://www.tnega.app/hava/), [demo video](https://www.youtube.com/watch?v=C0T4-EIfYHc)): draw in the air with your hands through the webcam while you explain an idea.
 - **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free open-source structural BIM course with lessons and an in-browser IFC model checker.
 - **Review notebook** ([tnega.app/notebook](https://www.tnega.app/notebook/)): structural engineering fundamentals with worked examples and traps to test on AI models.
@@ -68,7 +67,7 @@ Recommendation letters are easy to fake and hard to check. TrustCycle records ac
 ### Structural reliability of reclaimed steel
 *Sole author · self-study · Nov 2026 · [github.com/sabaazdn73/reclaimed-steel-reliability](https://github.com/sabaazdn73/reclaimed-steel-reliability)*
 
-Reclaimed steel has more uncertain properties than new steel. I wrote FORM in Python, checked it against importance sampling and Monte Carlo, and calibrated the partial factor that gives it the same reliability as modern S355.
+Reclaimed steel has more uncertain properties than new steel. I wrote FORM, checked it against importance sampling and Monte Carlo, and calibrated the partial factor that gives it the same reliability as modern S355.
 
 ### Financial Damage Detection Index
 *Sole author · Oct 2025 to Jan 2026*
@@ -97,7 +96,7 @@ I help Iranian applicants with their university and visa applications.
 ### MSc in Business
 *Católica Lisbon School of Business and Economics, Portugal · Sep 2023 to Oct 2026 · Final average 14/20 · taught in English*
 
-- Thesis (17/20), “Digital Identity + Verification Graph”: identity checks usually depend on one trusted authority; I designed verification without one and tested it in a 5,000-round simulation in Python.
+- Thesis (17/20), “Digital Identity + Verification Graph”: identity checks usually depend on one trusted authority; I designed verification without one and tested it in a 5,000-round simulation.
 - Financial Decision-Making 17/20, Managerial Economics 16/20; corporate finance, derivatives and business statistics (Stata).
 
 ### MSc in Civil Engineering, Structural Engineering
@@ -118,12 +117,12 @@ I help Iranian applicants with their university and visa applications.
 ## Awards
 
 - Partner prize (1,000 USDC), ETHGlobal Lisbon 2026, for Cross-Border (F2F).
-- Industry Scholarship, University of Zurich International Summer School 2026 (full fee waiver, CHF 1,000).
-- IFABS Grant for Young Researchers, IFABS 2026 London Conference (GBP 450 fee waiver).
+- Industry Scholarship for the University of Zurich summer school (full fee waiver, CHF 1,000).
+- IFABS Grant for Young Researchers, for the FDDI paper (GBP 450 fee waiver).
 
 ## Skills
 
-- **Structural:** ETABS, SAFE, Abaqus, structural dynamics, reliability (FORM, Monte Carlo); ACI 318-19, ASCE 7-16 and 7-22, 2024 IBC and state amendments, which edition a jurisdiction has adopted; Eurocodes (self-study).
-- **Construction and business:** quantity takeoff, cost estimating, site supervision, financial reporting and progress billing; valuation, pricing, market research; AutoCAD.
-- **AI and data:** Python, SQL (basics), Stata, Excel; Claude API, tool use and MCP; task and answer-key design, LLM judges, pass@k.
-- **Languages:** English (professional), Portuguese (basic), Persian (native). **Photography:** since 2017, mainly architectural ([portfolio](https://www.tnega.app/photography/)).
+- **Codes:** ACI 318-19, ASCE 7-16 and 7-22, 2024 IBC with state amendments; Eurocodes (self-study).
+- **Tools:** Python, SQL (basics), Claude API.
+- **Languages:** English (professional), Portuguese (basic), Persian (native).
+- **Photography:** since 2017, mainly architectural ([portfolio](https://www.tnega.app/photography/)).
