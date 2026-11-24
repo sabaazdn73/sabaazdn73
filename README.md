@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Saba Azadegan, structural engineer, with Fendi the cat" width="100%"/>
+<img src="assets/hero-v2.svg" alt="Saba Azadegan, structural engineer, with Fendi the cat" width="100%"/>
 
 ✦ [About](#about) · [AI evaluation](#ai-evaluation) · [Mini dApps](#mini-dapps) · [Mini apps](#mini-apps) · [Research](#research) · [Claude skills](#claude-skills) · [Photography](#photography) · [Toolkit](#toolkit) · [Courses](#courses) · [Contact](#contact) ✦
 
@@ -66,8 +66,8 @@ The tools behind it:
 
 <table>
 <tr>
-<td><a href="https://www.tnega.app/finance"><img src="assets/card-tnega.svg" alt="Tnega Finance: what each tokenized stock really costs to buy, per issuer and chain; MCP server with nine tools" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-f2f.svg" alt="Cross-Border (F2F): a University of Zurich summer school team project I led, then extended; partner prize at ETHGlobal Lisbon 2026" width="100%"/></a></td>
+<td><a href="https://www.tnega.app/finance"><img src="assets/card-tnega-finance.svg" alt="Tnega Finance: what each tokenized stock really costs to buy, per issuer and chain; MCP server with nine tools" width="100%"/></a></td>
+<td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-crossborder.svg" alt="Cross-Border (F2F): a University of Zurich summer school team project I led, then extended; partner prize at ETHGlobal Lisbon 2026" width="100%"/></a></td>
 </tr>
 <tr>
 <td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle: recommendation letters on IOTA" width="100%"/></a></td>
