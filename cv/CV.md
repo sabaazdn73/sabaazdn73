@@ -117,10 +117,12 @@ Financial stress often shows only after large price moves. I applied the stiffne
 ### BSc in Civil Engineering
 *Azad University, West Tehran Branch, Iran · Sep 2012 to Dec 2016 · GPA 15.84/20*
 
+### Deep Dive into Blockchain, International Summer School
+*University of Zurich, Switzerland · Jul 2026 · One month, in person · Industry Scholarship (full fee waiver, CHF 1,000)*
+
 ## Awards and programmes
 
 - Partner prize (1,000 USDC), ETHGlobal Lisbon 2026, for Cross-Border (F2F).
-- Industry Scholarship (full fee waiver, CHF 1,000), Deep Dive into Blockchain summer school, University of Zurich (Jul 2026).
 - IFABS Grant for Young Researchers (GBP 450 fee waiver), IFABS 2026 London Conference.
 - Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (Oct 2026).
 - Google Cloud Professional Agentic Architect, Special Edition cohort (in progress since Nov 2026); Anthropic Claude Academy: Introduction to Evals and AI Fluency (in progress); Mercor: Introduction to Agents.
@@ -130,11 +132,3 @@ Financial stress often shows only after large price moves. I applied the stiffne
 - **AI and programming:** Claude Code, Claude and Gemini APIs, tool calling and MCP servers; LLM evaluation (task and rubric design, LLM judges, pass@k); Python (NumPy, pandas, scikit-learn) and SQL at a basic level; Git and GitHub Actions.
 - **Engineering:** ETABS, SAFE, Abaqus, AutoCAD; ACI 318 and ASCE 7; Eurocodes (self-study).
 - **Languages:** English (professional), Persian (native), Portuguese (basic). **Photography:** since 2017, mainly architectural ([portfolio](https://www.tnega.app/photography/)).
-
-## Referees
-
-Prof. António Miguel, Assistant Professor, Católica Lisbon; Founder and CEO of MAZE; supervisor of my MSc thesis
-
-Prof. Cátia Silva, Assistant Professor, Instituto Superior Técnico, Universidade de Lisboa; my Operations Management professor at Católica
-
-Contact details on request.
