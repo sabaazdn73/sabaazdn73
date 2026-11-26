@@ -61,7 +61,7 @@ The advertised price of a tokenised stock is not what a buyer pays, and the gap 
 ### Cross-Border (F2F)
 *2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app) · JavaScript, Hedera*
 
-Cross-border transfers are hard to audit. F2F records every compliance and routing decision of a transfer on a public ledger (Hedera testnet), so each step can be checked. I led a team from South Africa, Pakistan, Mexico and Iran on it at the University of Zurich summer school, presented the technical part on the Zurich and Stellenbosch campuses, and extended it for ETHGlobal Lisbon 2026.
+Cross-border transfers are hard to audit. F2F records every compliance and routing decision of a transfer on a public ledger (Hedera testnet), so each step can be checked. I led a team from South Africa, Pakistan, Mexico and Iran on it at the University of Zurich summer school, presented the technical part to students on the Zurich and Stellenbosch campuses, and extended it for ETHGlobal Lisbon 2026.
 
 ### TrustCycle
 *2026 · [trustcycle.tech](https://trustcycle.tech) · React and TypeScript, Node.js and Express, IOTA Move*
@@ -118,14 +118,15 @@ Financial stress often shows only after large price moves. I applied the stiffne
 *Azad University, West Tehran Branch, Iran · Sep 2012 to Dec 2016 · GPA 15.84/20*
 
 ### Deep Dive into Blockchain, International Summer School
-*University of Zurich, Switzerland · Jul 2026 · One month, in person · Industry Scholarship (full fee waiver, CHF 1,000)*
+*University of Zurich, Switzerland · Jul 2026 · One month, online · Industry Scholarship (full fee waiver, CHF 1,000)*
 
 ## Awards and programmes
 
 - Partner prize (1,000 USDC), ETHGlobal Lisbon 2026, for Cross-Border (F2F).
 - IFABS Grant for Young Researchers (GBP 450 fee waiver), IFABS 2026 London Conference.
 - Google for Startups Immersion EMEA, powered by Antler (accepted, Oct 2026); Solana Fall School (Oct 2026).
-- Google Cloud Professional Agentic Architect, Special Edition cohort (in progress since Nov 2026); Anthropic Claude Academy: Introduction to Evals and AI Fluency (in progress); Mercor: Introduction to Agents.
+- Google Cloud Professional Agentic Architect, Special Edition cohort (in progress since Nov 2026).
+- Anthropic Claude Academy: Introduction to Evals and AI Fluency (in progress); Mercor: Introduction to Agents.
 
 ## Skills
 
