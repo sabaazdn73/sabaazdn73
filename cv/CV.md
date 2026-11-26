@@ -17,7 +17,7 @@ I am a structural engineer: I studied civil and structural engineering, worked o
 ### Freelance Researcher, AI Evaluation for Structural Engineering
 *Remote, freelance · Aug 2026 to present*
 
-AI models are being tried for structural review without a clear measure of how often they get code checks right. I write expert review tasks from realistic reinforced concrete project documents and test Claude and Gemini models on them with my own open-source harness. On six tasks entered in the micro1 Eval Hackathon (Nov 2026), four current models passed 0 of 42 trials, and 13 of 42 with the cited standards available to look up. Two sole-author abstracts on this work are under review (ISEC-2027, EG-ICE 2027).
+AI models are being tried for structural review without a clear measure of how often they get code checks right. I write expert review tasks from realistic reinforced concrete project documents and test Claude and Gemini models on them with my own open-source harness. On six tasks entered in the micro1 Eval Hackathon (Nov 2026), four current models passed 0 of 42 trials, and 13 of 42 with the cited standards available to look up.
 
 ### AI Trainer, Civil and Structural Engineering
 *DataAnnotation (Surge AI) · Remote, freelance · Oct 2026 to Nov 2026*
@@ -87,15 +87,15 @@ Sketching an idea on a video call usually needs a whiteboard. Hava lets you draw
 
 ## Research
 
-### Structural reliability of reclaimed steel
-*Self-directed · Nov 2026 · [github.com/sabaazdn73/reclaimed-steel-reliability](https://github.com/sabaazdn73/reclaimed-steel-reliability) · Python*
+### Can an AI-drafted review be signed? Language model errors in concrete design review
+*Sole author · manuscript under review, ISEC-2027 (Pomona, California) · submitted Nov 2026*
 
-Steel from dismantled structures can be reused, but its properties are more uncertain. I implemented FORM in Python, checked it with importance sampling and Monte Carlo, and calibrated the partial factor giving reclaimed steel the same reliability as modern steel, for two failure modes and three steel scenarios.
+A design review is only useful if an engineer can sign it. On six review tasks on fictional reinforced concrete projects (a submittal, a request for information or a delegated design), the paper classifies model errors by what they would mean in a signed review (life safety, durability or cost) and gives a checklist for the engineer of record. Even with the standards available, 15 of 25 answered trials on tasks with life-safety items missed at least one of them.
 
-### Pipeline damage detection with ML
-*Self-directed · Apr 2026 · [github.com/sabaazdn73/Pipeline-Damage-ML](https://github.com/sabaazdn73/Pipeline-Damage-ML) · NumPy, scikit-learn*
+### Where language models fail in structural engineering review: expert-designed tasks and the code-edition trap
+*Sole author · abstract under review, EG-ICE 2027 (Lund, Sweden) · submitted Nov 2026*
 
-Surrogate models can stand in for repeated finite element runs. I trained them on simplified FEM simulations of wall-thickness loss in a pipe; The Gaussian process, compared with linear regression and random forest, reached R² = 0.997 with uncertainty bounds.
+The same tasks, seen from the evaluation method. The failures came from choosing the wrong governing rule or code edition, not from arithmetic; the paper argues that the engineer’s part is to supply what lies outside the model, such as the real state of the project.
 
 ### Financial Damage Detection Index
 *Sole author · Oct 2025 to Jan 2026 · DCC-GARCH*
