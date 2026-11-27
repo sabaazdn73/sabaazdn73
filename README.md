@@ -2,7 +2,7 @@
 
 <img src="assets/hero-v2.svg" alt="Saba Azadegan, structural engineer, with Fendi the cat" width="100%"/>
 
-✦ [About](#about) · [AI evaluation](#ai-evaluation) · [Mini dApps](#mini-dapps) · [Mini apps](#mini-apps) · [Research](#research) · [Claude skills](#claude-skills) · [Photography](#photography) · [Toolkit](#toolkit) · [Courses](#courses) · [Contact](#contact) ✦
+✦ [About](#about) · [AI evaluation](#ai-evaluation) · [Team review](#team-review) · [Research](#research) · [Other work](#other-work) · [Photography](#photography) · [Toolkit](#toolkit) · [Courses](#courses) · [Contact](#contact) ✦
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -13,9 +13,7 @@
 
 <p align="center"><img src="assets/saba.svg" alt="Saba" width="150"/></p>
 
-I'm a structural engineer (MSc, Kharazmi University) with an MSc in Business from Católica Lisbon. In 2018 I worked on site on a reinforced concrete building: the quantity takeoff, the cost estimate and supervision of foundation and rebar work.
-
-I have worked with AI for about a year: first on web3 projects, and since August 2026, as a freelancer in Portugal, on testing AI models on structural engineering tasks. My CV is in [cv/](cv/).
+I'm a structural engineer (MSc, Kharazmi University) with an MSc in Business from Católica Lisbon. Since August 2026, as a freelancer in Portugal, I test AI models on structural engineering tasks: I write expert review tasks from realistic project documents and measure where the models get the code checks wrong. In 2018 I worked on site on a reinforced concrete building: the quantity takeoff, the cost estimate and supervision of foundation and rebar work. My CV is in [cv/](cv/).
 
 <div align="center">
 
@@ -42,7 +40,17 @@ I have worked with AI for about a year: first on web3 projects, and since August
 
 <img src="assets/architecture.svg" alt="How the evaluation works: an expert designs the task, models attempt it, an equipped grader checks the answer, a report applies difficulty and quality gates, and a human signs off. A private library of adopted code editions serves the models and the grader." width="100%"/>
 
+<a id="team-review"></a>
+
+### Team review: six agents, one bearing
+
+<a href="https://www.youtube.com/watch?v=RV5GsyJo4Ys"><img src="assets/team-review-video.jpg" alt="Watch on YouTube: six AI agents review one skybridge bearing, and make the wrong call" width="100%"/></a>
+
+▶️ **[Watch the team review on YouTube](https://www.youtube.com/watch?v=RV5GsyJo4Ys)** (2:22)
+
 </div>
+
+The harness can also run one model as a review team in a shared channel: a code-basis agent settles the code editions, one agent per member checks its part, the agents ask each other with @mentions, and a checker sends wrong parts back before it writes the graded answer. On the public skybridge task, a team of Claude Sonnet 5.5 agents accepted the sliding bearing with 3.66 in. of movement; ASCE 7-22 §12.12.3 calls for 5.69 in. (6.05 in. with thermal movement) against 5 in. of travel. The task, the whole conversation and the grade are [on GitHub](https://github.com/sabaazdn73/expert-eval-harness/tree/main/docs/team-review).
 
 The tools behind it:
 
@@ -51,77 +59,43 @@ The tools behind it:
 - **A code library as an MCP server**, private because the standards are licensed: search across ACI 318, ASCE 7 and FEMA and NIST guides, edition status, and an IBC adoption table.
 - **[Where the Human Belongs](https://github.com/sabaazdn73/expert-eval-harness/blob/main/docs/where-the-human-belongs.md)**: which steps a person must check, such as the adopted code edition or the real site status, and which can go to AI.
 - **[RC Code Town](https://www.tnega.app/town/)**: six concrete structures in 3D, the governing provisions and where AI tends to go wrong. It sits on [tnega.app](https://www.tnega.app), where I am also building an AI reviewer for structural drawings; it does not review drawings yet.
+- **[Review notebook](https://www.tnega.app/notebook/)**: structural engineering fundamentals, each section with a worked example and a trap to test on AI models.
 - **[A talk](https://www.youtube.com/watch?v=JYRgS2VCLQQ)** on how a task like these is designed, attempted by a model and graded.
 
 <div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
-<a id="projects"></a>
-<img src="assets/h-projects.svg" alt="Projects" width="100%"/>
-
-<a id="mini-dapps"></a>
-
-### Mini dApps
-
-<table>
-<tr>
-<td><a href="https://www.tnega.app/finance"><img src="assets/card-tnega-finance.svg" alt="Tnega Finance: what each tokenized stock really costs to buy, per issuer and chain; MCP server with nine tools" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04"><img src="assets/card-crossborder.svg" alt="Cross-Border (F2F): a University of Zurich summer school team project I led, then extended; partner prize at ETHGlobal Lisbon 2026" width="100%"/></a></td>
-</tr>
-<tr>
-<td><a href="https://github.com/sabaazdn73/TrustCycle"><img src="assets/card-trustcycle.svg" alt="TrustCycle: recommendation letters on IOTA" width="100%"/></a></td>
-<td><img src="assets/card-receipts.svg" alt="Tnega receipts on Solana, in progress" width="100%"/></td>
-</tr>
-</table>
-
-<a id="mini-apps"></a>
-
-### Mini apps
-
-<table>
-<tr>
-<td><a href="https://www.tnega.app/hava/"><img src="assets/card-hava.svg" alt="Hava: draw in the air with your hands through the webcam" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/open-structural-bim-course"><img src="assets/card-bim.svg" alt="Structural BIM course: 32 exercises on one reinforced concrete building in FreeCAD and Bonsai, with a checker that grades your IFC file" width="100%"/></a></td>
-</tr>
-<tr>
-<td colspan="2" align="center"><a href="https://www.tnega.app/notebook/"><img src="assets/card-notebook.svg" alt="Review notebook: structural engineering fundamentals with worked examples and traps to test on AI" width="50%"/></a></td>
-</tr>
-</table>
-
-</div>
-
-Hava runs in the browser and the camera picture is never uploaded ([2-minute demo](https://www.youtube.com/watch?v=C0T4-EIfYHc)). The BIM course checker also runs in the browser at [tnega.app/bim](https://www.tnega.app/bim/).
-
-<div align="center">
-
 <a id="research"></a>
 
 ### Research
 
-<table>
-<tr>
-<td><img src="assets/card-fddi.svg" alt="FDDI: structural damage detection applied to company finances, accepted at IFABS 2026" width="100%"/></td>
-<td><a href="https://github.com/sabaazdn73/DIVG"><img src="assets/card-divg.svg" alt="DIVG: Digital Identity + Verification Graph, my MSc thesis" width="100%"/></a></td>
-</tr>
-</table>
-
 </div>
 
-Also: [structural reliability of reclaimed steel](https://github.com/sabaazdn73/reclaimed-steel-reliability), FORM in Python checked against importance sampling and Monte Carlo, and two sole-author conference abstracts under review (EG-ICE 2027, ISEC-2027) on where language models fail in structural review.
+- **Can an AI-drafted review be signed? Language model errors in concrete design review**: sole author, manuscript under review at ISEC-2027 (Pomona, California).
+- **Where language models fail in structural engineering review: expert-designed tasks and the code-edition trap**: sole author, abstract under review at EG-ICE 2027 (Lund, Sweden).
+- **Damage detection in bridges** (MSc research, Kharazmi University): damage modelled in Abaqus as local stiffness loss, and how it shifts natural frequencies and mode shapes.
+- **[Structural reliability of reclaimed steel](https://github.com/sabaazdn73/reclaimed-steel-reliability)**: FORM in Python, checked against importance sampling and Monte Carlo.
+- **Financial Damage Detection Index**: structural damage detection applied to company finances; accepted at the IFABS 2026 London Conference.
+- **[DIVG](https://github.com/sabaazdn73/DIVG)**: Digital Identity + Verification Graph, my MSc in Business thesis.
 
 <div align="center">
 
-<a id="claude-skills"></a>
+<a id="other-work"></a>
 
-### Claude skills
+### Other work: mini dApps and mini apps
 
-<table>
-<tr>
-<td><a href="https://github.com/sabaazdn73/heygen-avatar-director-skill-for-claude"><img src="assets/card-heygen.svg" alt="HeyGen Avatar Director: a Claude Agent Skill that directs HeyGen avatars beat by beat" width="100%"/></a></td>
-<td><a href="https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude"><img src="assets/card-veo.svg" alt="Gemini Veo Studio: a Claude Agent Skill that makes videos with Google Veo 3.1" width="100%"/></a></td>
-</tr>
-</table>
+</div>
+
+- **[Tnega Finance](https://www.tnega.app/finance)**: the real cost of buying a tokenised stock, per issuer and chain.
+- **[Cross-Border (F2F)](https://github.com/sabaazdn73/Cross-Border-Payments-DDiB2026-OG04)**: cross-border transfers recorded on Hedera; partner prize at ETHGlobal Lisbon 2026.
+- **[TrustCycle](https://github.com/sabaazdn73/TrustCycle)**: recommendation letters that can be verified on IOTA.
+- **Tnega receipts** on Solana, in progress.
+- **[Hava](https://www.tnega.app/hava/)**: draw in the air with your hands through the webcam ([demo](https://www.youtube.com/watch?v=C0T4-EIfYHc)).
+- **[Structural BIM course](https://github.com/sabaazdn73/open-structural-bim-course)**: 32 exercises on one concrete building, with a checker for your IFC file.
+- **Claude skills for video**: [HeyGen Avatar Director](https://github.com/sabaazdn73/heygen-avatar-director-skill-for-claude) and [Gemini Veo Studio](https://github.com/sabaazdn73/gemini-veo-studio-skill-for-claude).
+
+<div align="center">
 
 <img src="assets/divider.svg" alt="" width="100%"/>
 
@@ -132,15 +106,7 @@ Also: [structural reliability of reclaimed steel](https://github.com/sabaazdn73/
 
 </div>
 
-I have photographed since 2017, after about two years of study that started with the photography course at the University of Tehran: landscape, architecture and interiors, still life, product and food, and light painting. 238 photographs in 16 albums, on a Nikon D810 in Iran and on a phone in Lisbon and Cascais, are in my [portfolio](https://www.tnega.app/photography/).
-
-<div align="center">
-
-<a href="https://www.tnega.app/photography/#comfyui"><img src="assets/comfyui-grid.jpg" alt="Four images I made with ComfyUI from my own photographs: Damavand under trails of light, a tiled dome standing in the sea, a bridge at blue hour, and a glass ball holding a mountain valley" width="100%"/></a>
-
-</div>
-
-I also made 24 images with ComfyUI on my laptop, each from a blend of two of my photographs ([album](https://www.tnega.app/photography/#comfyui)), and brand images and logos with Gemini, ChatGPT and Claude ([Digital art album](https://www.tnega.app/photography/#digital)).
+Photography since 2017: landscape, architecture, still life and light painting. 238 photographs in 16 albums, and 24 ComfyUI images made from my own photographs, are in my [portfolio](https://www.tnega.app/photography/).
 
 <div align="center">
 
@@ -151,13 +117,9 @@ I also made 24 images with ComfyUI on my laptop, each from a blend of two of my 
 
 <img src="assets/stack-eng.svg" alt="ACI 318-19, ASCE 7, IBC, ETABS, SAFE, Abaqus, AutoCAD, Python, Excel, quantity takeoff, structural dynamics" width="100%"/>
 
-<img src="assets/h-stack.svg" alt="Tech stack and chains" width="100%"/>
-
-<img src="assets/stack.svg" alt="Solidity, Move, Rust, Anchor, TypeScript, Python, React, MCP, LiteSVM, Hedera, SUI, IOTA, Solana, BNB, Arbitrum" width="100%"/>
-
 </div>
 
-The languages and chains used in my web3 projects. I build with Claude Code; my own programming is basic.
+I build my tools with Claude Code; my own programming is basic. The mini dApps use Solidity, Move, Rust and TypeScript on Hedera, SUI, IOTA, Solana, BNB and Arbitrum.
 
 <div align="center">
 

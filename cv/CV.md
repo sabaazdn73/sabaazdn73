@@ -54,7 +54,7 @@ AI answers to business tasks can sound right and still be wrong. I rated them fo
 ### Expert eval harness
 *2026 · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness) · Python, Claude and Gemini APIs, GitHub Actions*
 
-A single answer says little about how reliably a model handles expert work. The open-source harness runs each task several times per model and scores every answer item by item against the expert key, with pass@k, pass^k, confidence intervals and difficulty and quality gates. On the hackathon tasks two LLM judges from different model families agreed on 96% of items; every disagreement goes to a human expert.
+A single answer says little about how reliably a model handles expert work. The open-source harness runs each task several times per model and scores every answer item by item against the expert key, with pass@k, pass^k, confidence intervals and difficulty and quality gates. On the hackathon tasks two LLM judges from different model families agreed on 96% of items; every disagreement goes to a human expert. A team review mode runs one model as a review team in a shared channel, with a checker that sends wrong parts back ([video](https://www.youtube.com/watch?v=RV5GsyJo4Ys)).
 
 ### Task pipeline and method
 *2026 · [tnega.app/eval](https://www.tnega.app/eval/) · [video walkthrough](https://www.youtube.com/watch?v=IWcEG7c-mQU) · JavaScript*
@@ -102,11 +102,11 @@ The project needed reliable quantities and costs for a cast-in-place reinforced 
 
 ## Other work: mini dApps and mini apps
 
-- **Tnega Finance** ([tnega.app/finance](https://www.tnega.app/finance)): what a tokenised stock really costs to buy, across 7,279 versions of 1,378 stocks and ETFs from five issuers on seven chains; its MCP server lets an AI assistant prepare a trade that the user signs in their own wallet.
-- **Cross-Border (F2F)** ([f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)): every compliance and routing decision of a cross-border transfer recorded on Hedera; I led a team from four countries at the University of Zurich summer school and extended it for ETHGlobal Lisbon 2026.
-- **TrustCycle** ([trustcycle.tech](https://trustcycle.tech)): academic recommendation letters that a reader can verify on IOTA; ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.
-- **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free course modelling one reinforced concrete building in 32 exercises, with an IFC checker that runs in the browser.
-- **Hava** ([tnega.app/hava](https://www.tnega.app/hava/)): drawing in the air with your hands on a video call; the hand tracking runs in the browser.
+- **Tnega Finance** ([tnega.app/finance](https://www.tnega.app/finance)): the real cost of buying a tokenised stock, per issuer and chain.
+- **Cross-Border (F2F)** ([f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)): cross-border transfers recorded on Hedera; a summer school team project I led.
+- **TrustCycle** ([trustcycle.tech](https://trustcycle.tech)): recommendation letters that can be verified on IOTA.
+- **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free 32-exercise course on one concrete building, with an IFC checker.
+- **Hava** ([tnega.app/hava](https://www.tnega.app/hava/)): drawing in the air with your hands, in the browser.
 
 ## Awards and programmes
 
