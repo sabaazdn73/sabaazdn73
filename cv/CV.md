@@ -1,5 +1,7 @@
 # Saba Azadegan
 
+Structural engineer (MSc) · AI evaluation for structural engineering
+
 Lisbon, Portugal · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 [linkedin.com/in/saba-azadegan-2974b622a](https://www.linkedin.com/in/saba-azadegan-2974b622a/) · [github.com/sabaazdn73](https://github.com/sabaazdn73) · [tnega.app](https://www.tnega.app) · [medium.com/@sabaazadegan](https://medium.com/@sabaazadegan)
@@ -10,9 +12,9 @@ Lisbon, Portugal · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 ## Profile
 
-I am a structural engineer: I studied civil and structural engineering, worked on a reinforced concrete building site and later did an MSc in Business in Lisbon. I have worked with AI for about a year, first on small web3 apps and, since August 2026, on testing where AI models fail in structural engineering review. I build most of my tools with Claude Code and want to help make AI reliable for work that an engineer must sign off.
+I am a structural engineer, and my main work is AI evaluation for structural engineering: I write expert review tasks from realistic project documents, measure how often AI models get the code checks right and report where they fail. Behind this are 18 months of graduate research on damage detection in bridges, site work on a reinforced concrete building and an MSc in Business from Católica Lisbon. I build most of my tools with Claude Code and want to help make AI reliable for work that an engineer must sign off.
 
-## Experience
+## AI evaluation: experience
 
 ### Freelance Researcher, AI Evaluation for Structural Engineering
 *Remote, freelance · Aug 2026 to present*
@@ -29,63 +31,29 @@ AI agents misapply design rules in ways that simple tests miss. I spent more tha
 
 AI answers to business tasks can sound right and still be wrong. I rated them for accuracy, reasoning, instruction-following and usefulness, with a written reason for every rating.
 
-### Site Civil Engineer (graduate trainee), Parvin mixed-use project
-*Aghigh Naghsh-e-Jahan Investment Holding · Isfahan, Iran · May 2018 to Oct 2018*
-
-The project needed reliable quantities and costs for a cast-in-place reinforced concrete building. I did the full quantity takeoff from the AutoCAD drawings and the cost estimate in Excel, supervised foundation and rebar work, and supported the project manager with planning.
-
-## AI evaluation
+## AI evaluation: projects
 
 ### Expert eval harness
 *2026 · [github.com/sabaazdn73/expert-eval-harness](https://github.com/sabaazdn73/expert-eval-harness) · Python, Claude and Gemini APIs, GitHub Actions*
 
 A single answer says little about how reliably a model handles expert work. The open-source harness runs each task several times per model and scores every answer item by item against the expert key, with pass@k, pass^k, confidence intervals and difficulty and quality gates. On the hackathon tasks two LLM judges from different model families agreed on 96% of items; every disagreement goes to a human expert.
 
-### RC Code Town
-*2026 · [tnega.app/town](https://www.tnega.app/town/) · three.js*
-
-Reviewers need to see where in a building an AI model tends to go wrong. RC Code Town shows six types of US concrete structures in 3D at true scale, with geometry from FEMA, FHWA and code sources; clicking a part shows the governing provisions and the errors AI models tend to make there (84 failure cards, 25 review scenarios). Some of my evaluation tasks are set on these buildings; an AI reviewer for structural drawings is in development on the same site.
-
 ### Task pipeline and method
 *2026 · [tnega.app/eval](https://www.tnega.app/eval/) · [video walkthrough](https://www.youtube.com/watch?v=IWcEG7c-mQU) · JavaScript*
 
 AI drafts task prompts and keys well but misses facts that change, such as the code edition a jurisdiction has adopted. My article [“Where the Human Belongs”](https://medium.com/@sabaazadegan/where-the-human-belongs-ab775c2fa3f7) sets out which steps the engineer must check; the pipeline page shows each hackathon task’s nine stages and results.
 
-## Mini dApps
+### RC Code Town
+*2026 · [tnega.app/town](https://www.tnega.app/town/) · three.js*
 
-### Tnega Finance
-*2026 · [tnega.app/finance](https://www.tnega.app/finance) · Vite and React, FastAPI, wagmi, MCP server*
-
-The advertised price of a tokenised stock is not what a buyer pays, and the gap differs by issuer and by chain. Tnega Finance prices a real purchase of each version: 1,378 stocks and ETFs in 7,279 versions from five issuers on seven chains (Oct 2026). Its MCP server with nine tools lets an AI assistant prepare a buy or sell, but the user signs every transaction in their own wallet; Tnega Finance never holds funds.
-
-### Cross-Border (F2F)
-*2026 · [f2f-uzh.vercel.app](https://f2f-uzh.vercel.app) · JavaScript, Hedera*
-
-Cross-border transfers are hard to audit. F2F records every compliance and routing decision of a transfer on a public ledger (Hedera testnet), so each step can be checked. I led a team from South Africa, Pakistan, Mexico and Iran on it at the University of Zurich summer school, presented the technical part to students on the Zurich and Stellenbosch campuses, and extended it for ETHGlobal Lisbon 2026.
-
-### TrustCycle
-*2026 · [trustcycle.tech](https://trustcycle.tech) · React and TypeScript, Node.js and Express, IOTA Move*
-
-Recommendation letters are easy to fake and hard to check. TrustCycle stores academic letters on IOTA so a reader can verify them, with separate portals for professors, students, universities and verifiers. It ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.
-
-## Mini apps
-
-### BIM practice
-*2026 · [tnega.app/bim](https://www.tnega.app/bim/) · FreeCAD or Blender with Bonsai; Python and IfcOpenShell in WebAssembly*
-
-Structural BIM is usually learned on paid software. In this free, open-source course the student models one reinforced concrete building in 32 exercises with free tools; a checker in the browser reads the IFC file and says, line by line, what is right, uploading nothing.
+Reviewers need to see where in a building an AI model tends to go wrong. RC Code Town shows six types of US concrete structures in 3D at true scale, with geometry from FEMA, FHWA and code sources; clicking a part shows the governing provisions and the errors AI models tend to make there (84 failure cards, 25 review scenarios). Some of my evaluation tasks are set on these buildings; an AI reviewer for structural drawings is in development on the same site.
 
 ### Review notebook
 *2026 · [tnega.app/notebook](https://www.tnega.app/notebook/) · Python*
 
 An evaluator has to know structural fundamentals to judge a model’s reasoning. Each section gives the idea, a worked example, a practice problem and a trap to test on AI models, with every number computed in a script; three modules so far: 82 sections, 85 figures, 24 harness tasks.
 
-### Hava
-*2026 · [tnega.app/hava](https://www.tnega.app/hava/) · Google MediaPipe hand tracking, TensorFlow.js DoodleNet*
-
-Sketching an idea on a video call usually needs a whiteboard. Hava lets you draw in the air with your hands in the browser; when you share the tab, others see the sketch over your face. The camera feed never leaves your computer.
-
-## Research
+## Papers
 
 ### Can an AI-drafted review be signed? Language model errors in concrete design review
 *Sole author · manuscript under review, ISEC-2027 (Pomona, California) · submitted Nov 2026*
@@ -102,6 +70,26 @@ The same tasks, seen from the evaluation method. The failures came from choosing
 
 Financial stress often shows only after large price moves. I applied the stiffness-based damage detection of structural health monitoring to company finances, with time-series models of market data. Accepted at the IFABS 2026 London Conference (review score 7.4/10); withdrawn before the conference.
 
+## Engineering experience
+
+### Graduate Researcher, Damage Detection in Bridges
+*Kharazmi University, Iran · About 18 months within the MSc (Oct 2018 to Feb 2021)*
+
+Damage changes a structure’s stiffness before it can be seen. I modelled damage in bridges in Abaqus as local stiffness loss and studied how it shifts their natural frequencies and mode shapes, the basis of vibration-based structural health monitoring.
+
+### Site Civil Engineer (graduate trainee), Parvin mixed-use project
+*Aghigh Naghsh-e-Jahan Investment Holding · Isfahan, Iran · May 2018 to Oct 2018*
+
+The project needed reliable quantities and costs for a cast-in-place reinforced concrete building. I did the full quantity takeoff from the AutoCAD drawings and the cost estimate in Excel, supervised foundation and rebar work, and supported the project manager with planning.
+
+## Other work: mini dApps and mini apps
+
+- **Tnega Finance** ([tnega.app/finance](https://www.tnega.app/finance)): what a tokenised stock really costs to buy, across 7,279 versions of 1,378 stocks and ETFs from five issuers on seven chains; its MCP server lets an AI assistant prepare a trade that the user signs in their own wallet.
+- **Cross-Border (F2F)** ([f2f-uzh.vercel.app](https://f2f-uzh.vercel.app)): every compliance and routing decision of a cross-border transfer recorded on Hedera; I led a team from four countries at the University of Zurich summer school and extended it for ETHGlobal Lisbon 2026.
+- **TrustCycle** ([trustcycle.tech](https://trustcycle.tech)): academic recommendation letters that a reader can verify on IOTA; ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.
+- **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free course modelling one reinforced concrete building in 32 exercises, with an IFC checker that runs in the browser.
+- **Hava** ([tnega.app/hava](https://www.tnega.app/hava/)): drawing in the air with your hands on a video call; the hand tracking runs in the browser.
+
 ## Education
 
 ### MSc in Business
@@ -112,7 +100,7 @@ Financial stress often shows only after large price moves. I applied the stiffne
 ### MSc in Civil Engineering, Structural Engineering
 *Kharazmi University, Iran · Oct 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95/20)*
 
-- Structural dynamics; Finite Element Methods (18/20), Abaqus; seminar (18/20) on structural health monitoring: damage detection from changes in stiffness, frequencies and mode shapes.
+- Finite Element Methods (18/20), Theory of Elasticity (18.25/20), Advanced Reinforced Concrete Structures (17.5/20); structural dynamics and seismology; seminar (18/20) reviewing structural health monitoring methods.
 
 ### BSc in Civil Engineering
 *Azad University, West Tehran Branch, Iran · Sep 2012 to Dec 2016 · GPA 15.84/20*
@@ -131,5 +119,5 @@ Financial stress often shows only after large price moves. I applied the stiffne
 ## Skills
 
 - **AI and programming:** Claude Code, Claude and Gemini APIs, tool calling and MCP servers; LLM evaluation (task and rubric design, LLM judges, pass@k); Python (NumPy, pandas, scikit-learn) and SQL at a basic level; Git and GitHub Actions.
-- **Engineering:** ETABS, SAFE, Abaqus, AutoCAD; ACI 318 and ASCE 7; Eurocodes (self-study).
+- **Engineering:** ETABS, SAFE and Abaqus (about a year of modelling and analysis), AutoCAD; ACI 318 and ASCE 7; Eurocodes (self-study).
 - **Languages:** English (professional), Persian (native), Portuguese (basic). **Photography:** since 2017, mainly architectural ([portfolio](https://www.tnega.app/photography/)).
