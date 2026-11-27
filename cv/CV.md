@@ -14,6 +14,24 @@ Lisbon, Portugal · [sabaazad93@gmail.com](mailto:sabaazad93@gmail.com)
 
 I am a structural engineer, and my main work is AI evaluation for structural engineering: I write expert review tasks from realistic project documents, measure how often AI models get the code checks right and report where they fail. Behind this are 18 months of graduate research on damage detection in bridges, site work on a reinforced concrete building and an MSc in Business from Católica Lisbon. I build most of my tools with Claude Code and want to help make AI reliable for work that an engineer must sign off.
 
+## Education
+
+### MSc in Business
+*Católica Lisbon School of Business and Economics, Portugal · Sep 2023 to Oct 2026 · Final average 14/20 · Taught in English*
+
+- Thesis (17/20), “Digital Identity + Verification Graph”: impact claims are verified once by a panel of stakeholders and can then be checked by any investor; tested in a 5,000-round simulation in Python, with a prototype live on Sui testnet ([divg.vercel.app](https://divg.vercel.app)).
+
+### MSc in Civil Engineering, Structural Engineering
+*Kharazmi University, Iran · Oct 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95/20)*
+
+- Finite Element Methods (18/20), Theory of Elasticity (18.25/20), Advanced Reinforced Concrete Structures (17.5/20); structural dynamics and seismology; seminar (18/20) reviewing structural health monitoring methods.
+
+### BSc in Civil Engineering
+*Azad University, West Tehran Branch, Iran · Sep 2012 to Dec 2016 · GPA 15.84/20*
+
+### Deep Dive into Blockchain, International Summer School
+*University of Zurich, Switzerland · Jul 2026 · One month, online · Industry Scholarship (full fee waiver, CHF 1,000)*
+
 ## AI evaluation: experience
 
 ### Freelance Researcher, AI Evaluation for Structural Engineering
@@ -89,24 +107,6 @@ The project needed reliable quantities and costs for a cast-in-place reinforced 
 - **TrustCycle** ([trustcycle.tech](https://trustcycle.tech)): academic recommendation letters that a reader can verify on IOTA; ranked 22 of 66 at the MasterZ and IOTA Web3 hackathon.
 - **BIM practice** ([tnega.app/bim](https://www.tnega.app/bim/)): a free course modelling one reinforced concrete building in 32 exercises, with an IFC checker that runs in the browser.
 - **Hava** ([tnega.app/hava](https://www.tnega.app/hava/)): drawing in the air with your hands on a video call; the hand tracking runs in the browser.
-
-## Education
-
-### MSc in Business
-*Católica Lisbon School of Business and Economics, Portugal · Sep 2023 to Oct 2026 · Final average 14/20 · Taught in English*
-
-- Thesis (17/20), “Digital Identity + Verification Graph”: impact claims are verified once by a panel of stakeholders and can then be checked by any investor; tested in a 5,000-round simulation in Python, with a prototype live on Sui testnet ([divg.vercel.app](https://divg.vercel.app)).
-
-### MSc in Civil Engineering, Structural Engineering
-*Kharazmi University, Iran · Oct 2018 to Feb 2021 · GPA 15.75/20 (programme average 14.95/20)*
-
-- Finite Element Methods (18/20), Theory of Elasticity (18.25/20), Advanced Reinforced Concrete Structures (17.5/20); structural dynamics and seismology; seminar (18/20) reviewing structural health monitoring methods.
-
-### BSc in Civil Engineering
-*Azad University, West Tehran Branch, Iran · Sep 2012 to Dec 2016 · GPA 15.84/20*
-
-### Deep Dive into Blockchain, International Summer School
-*University of Zurich, Switzerland · Jul 2026 · One month, online · Industry Scholarship (full fee waiver, CHF 1,000)*
 
 ## Awards and programmes
 
